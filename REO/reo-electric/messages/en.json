@@ -1,0 +1,615 @@
+{
+  "Navigation": {
+    "home": "Home",
+    "about": "About Us",
+    "services": "Services",
+    "blog": "Blog",
+    "contact": "Contact",
+    "portfolio": "Portfolio",
+    "faq": "FAQ"
+  },
+  "Hero": {
+    "title": "Powering Your Future with Clean Energy",
+    "description": "Providing sustainable and reliable electricity solutions for homes and businesses across the region.",
+    "cta": "Learn More",
+    "contact": "Contact Us"
+  },
+  "Services": {
+    "title": "Our Services",
+    "subtitle": "We offer a comprehensive range of electrical services designed to meet your needs",
+    "residential": {
+      "title": "Residential Services",
+      "description": "Complete electrical solutions for your home including installations, repairs, and upgrades."
+    },
+    "commercial": {
+      "title": "Commercial Services",
+      "description": "Professional electrical services for businesses of all sizes with minimal disruption."
+    },
+    "emergency": {
+      "title": "Emergency Support",
+      "description": "24/7 emergency electrical services to keep your home or business powered safely."
+    }
+  },
+  "WhyChoose": {
+    "title": "Why Choose REO Electric?",
+    "subtitle": "Our commitment to excellence sets us apart from the competition",
+    "certified": {
+      "title": "Certified Electricians",
+      "description": "All our electricians are licensed, insured, and continuously trained in the latest technologies."
+    },
+    "quality": {
+      "title": "Quality Guarantee",
+      "description": "We stand behind our work with industry-leading warranties and guarantees."
+    },
+    "experience": {
+      "title": "20+ Years Experience",
+      "description": "Two decades of experience serving residential and commercial clients."
+    }
+  },
+  "Testimonials": {
+    "title": "What Our Clients Say",
+    "testimonial1": "REO Electric transformed our office with a complete electrical upgrade. Professional, efficient, and clean!",
+    "author1": "Sarah Johnson, Office Manager",
+    "testimonial2": "When our home lost power during a storm, their 24/7 emergency service saved the day. Highly recommended!",
+    "author2": "Michael Torres, Homeowner"
+  },
+  "Contact": {
+    "title": "Get In Touch",
+    "subtitle": "Have questions about our services or need assistance? Reach out to our team and we'll get back to you as soon as possible.",
+    "name": "Name",
+    "email": "Email",
+    "phone": "Phone Number",
+    "service": "Service Type",
+    "message": "Message",
+    "send": "Send Message",
+    "address": "Address",
+    "workingHours": "Working Hours",
+    "emergency": "Emergency Services",
+    "required": "Required"
+  },
+  "Footer": {
+    "copyright": "© {year} REO Electric Company. All rights reserved.",
+    "rights": "All rights reserved."
+  },
+  "Blog": {
+    "title": "Latest News & Insights",
+    "subtitle": "Stay updated with the latest trends, tips, and news in the electrical industry",
+    "readMore": "Read More",
+    "previous": "Previous",
+    "next": "Next",
+    "backToBlog": "← Back to Blog",
+    "share": "Share",
+    "relatedPosts": "Related Posts",
+    "by": "By",
+    "posts": {
+      "renewableEnergy": {
+        "title": "The Future of Renewable Energy",
+        "excerpt": "Exploring the latest trends in renewable energy technologies and their impact on the industry."
+      },
+      "energyEfficiency": {
+        "title": "Energy Efficiency Tips for Your Home",
+        "excerpt": "Simple and effective ways to reduce your energy consumption and lower your electricity bills."
+      },
+      "smartGrid": {
+        "title": "Understanding Smart Grid Technology",
+        "excerpt": "How smart grids are revolutionizing the way we generate, distribute, and consume electricity."
+      },
+      "electricalSafety": {
+        "title": "Electrical Safety: A Homeowner's Guide",
+        "excerpt": "Essential tips to ensure electrical safety in your home."
+      },
+      "solarPanels": {
+        "title": "Benefits of Residential Solar Panels",
+        "excerpt": "Discover why more and more homeowners are adopting solar energy."
+      },
+      "ledLighting": {
+        "title": "LED Lighting Trends for 2023",
+        "excerpt": "The latest innovations in LED lighting and their applications."
+      }
+    }
+  },
+  "HomePage": {
+    "Hero": {
+      "title": "Certified Electrician in Agadir – 20+ Years Expertise",
+      "description": "REO supports hotels and buildings with motor winding, electrical panels, and installations, with precise diagnostics, guaranteed deadlines, and clear warranties in Morocco.",
+      "cta": "Request Free Quote",
+      "contact": "24/7 Emergency",
+      "imageAlt": "Professional electrician in Agadir - safe and compliant interventions"
+    },
+    "Services": {
+      "title": "Our Specialized Services",
+      "subtitle": "Electrical solutions for hotels, buildings, and motors in Morocco",
+      "bobinage": {
+        "title": "Motor Winding",
+        "description": "Diagnosis, copper rewinding, insulation tests, and vibrations. Workshop guarantee with traceability reports."
+      },
+      "armoires": {
+        "title": "Hotel Panels",
+        "description": "Design, modernization, standards compliance for TGBT and panels. Selectivity and service continuity."
+      },
+      "installations": {
+        "title": "Building Installations",
+        "description": "Distribution, protections, grounding. Load studies and complete compliance documentation."
+      }
+    },
+    "WhyChoose": {
+      "title": "Why Choose REO?",
+      "subtitle": "20+ years of expertise serving hotels and buildings in Morocco",
+      "experience": {
+        "title": "20+ Years Experience",
+        "description": "Recognized expertise in motor winding, hotel panels, and building installations in Morocco."
+      },
+      "safety": {
+        "title": "Safety & Compliance",
+        "description": "Decennial insurance [INSURANCE_NUM], license [LICENSE_NUM], documented procedures."
+      },
+      "proximity": {
+        "title": "Proximity Service",
+        "description": "Dedicated contact, project follow-up, 24/7 on-call and emergency interventions."
+      }
+    },
+    "Testimonials": {
+      "title": "Client Testimonials",
+      "testimonial1": "Reactive service, zero incidents since our TGBT renovation. Deadlines met, professional team.",
+      "author1": "Hotel Director, [CITY A]",
+      "testimonial2": "Motor rewinding in 72h, performance delivered. Pedagogical and efficient team.",
+      "author2": "Maintenance Manager, [CITY B]"
+    },
+    "Contact": {
+      "title": "Contact REO",
+      "subtitle": "Free Quote • 24/7 Emergency • WhatsApp +212 667924515 • Zone [REGION]"
+    }
+  },
+  "About": {
+    "Hero": {
+      "title": "About REO",
+      "description": "Specialized electrician in Morocco for 20+ years: motor winding, hotel panels, building installations. Proximity service, compliance, and reactivity."
+    },
+    "Story": {
+      "title": "Our Story",
+      "description1": "Founded in 2003, REO has specialized in motor winding, hotel electrical panels, and building installations in Morocco. Our journey began with a simple mission: to provide exceptional electrical services that prioritize safety, compliance, and customer satisfaction.",
+      "description2": "Over the years, we have expanded our services, embraced new technologies, and built lasting relationships with hotels and building managers. Today, we continue to uphold the same values that guided us from the beginning: integrity, professionalism, and a commitment to excellence.",
+      "yearsExperience": "Years Experience",
+      "projectsCompleted": "Projects Completed",
+      "satisfactionRate": "Customer Satisfaction",
+      "imageAlt": "REO Electric team at work"
+    },
+    "Mission": {
+      "title": "Our Mission",
+      "description": "To provide safe, compliant, and innovative electrical solutions for hotels and buildings in Morocco while maintaining the highest standards of quality, safety, and customer service."
+    },
+    "Vision": {
+      "title": "Our Vision",
+      "description": "To be the leading electrical services provider in Morocco, known for our commitment to safety, compliance, and exceptional customer experiences in the hospitality and building sectors."
+    },
+    "Values": {
+      "title": "Our Values",
+      "subtitle": "The principles that guide everything we do",
+      "safety": {
+        "title": "Safety First",
+        "description": "We prioritize the safety of our clients, team members, and the community in every project we undertake."
+      },
+      "quality": {
+        "title": "Quality Excellence",
+        "description": "We maintain the highest standards of workmanship and use only the best materials and equipment."
+      },
+      "innovation": {
+        "title": "Innovation",
+        "description": "We embrace new technologies and methods to provide cutting-edge electrical solutions."
+      },
+      "integrity": {
+        "title": "Integrity",
+        "description": "We conduct business with honesty, transparency, and respect for our clients and team members."
+      }
+    },
+    "Team": {
+      "title": "Meet Our Team",
+      "subtitle": "The experienced professionals behind REO Electric's success",
+      "ceo": {
+        "name": "Robert Johnson",
+        "position": "Chief Executive Officer",
+        "description": "With over 25 years in the electrical industry, Robert leads our company with a vision for innovation and excellence."
+      },
+      "cto": {
+        "name": "Sarah Martinez",
+        "position": "Chief Technology Officer",
+        "description": "Sarah oversees our technical operations and ensures we stay at the forefront of electrical technology."
+      },
+      "lead": {
+        "name": "Michael Chen",
+        "position": "Lead Electrician",
+        "description": "Michael brings 15 years of experience and leads our team of certified electricians on complex projects."
+      }
+    },
+    "Contact": {
+      "title": "Ready to Work With Us?",
+      "subtitle": "Let's discuss how REO Electric can meet your electrical needs with our expertise and commitment to excellence.",
+      "cta": "Get In Touch"
+    }
+  },
+  "Bobinage": {
+    "Hero": {
+      "title": "Motor Winding Service",
+      "subtitle": "Professional motor rewinding and repair in Agadir",
+      "description": "Diagnosis, copper rewinding, insulation tests, and vibrations. Workshop guarantee with traceability reports."
+    },
+    "Process": {
+      "title": "Our Process",
+      "subtitle": "Step-by-step motor winding process",
+      "step1": {
+        "title": "Diagnosis",
+        "description": "Complete motor analysis: electrical tests, insulation, vibrations, and performance assessment."
+      },
+      "step2": {
+        "title": "Disassembly",
+        "description": "Careful disassembly, part identification, and damage assessment with photo documentation."
+      },
+      "step3": {
+        "title": "Rewinding",
+        "description": "Copper rewinding with quality materials, insulation tests, and compliance with standards."
+      },
+      "step4": {
+        "title": "Testing",
+        "description": "Performance tests, insulation verification, and final quality control before delivery."
+      }
+    },
+    "Benefits": {
+      "title": "Why Choose Our Motor Winding Service?",
+      "subtitle": "Professional expertise and guaranteed results",
+      "expertise": {
+        "title": "20+ Years Experience",
+        "description": "Recognized expertise in motor winding for hotels, buildings, and industrial applications."
+      },
+      "quality": {
+        "title": "Quality Materials",
+        "description": "High-quality copper, insulation materials, and components for optimal performance."
+      },
+      "warranty": {
+        "title": "Workshop Guarantee",
+        "description": "Complete warranty on workmanship and materials with traceability reports."
+      },
+      "speed": {
+        "title": "Fast Service",
+        "description": "Quick turnaround times to minimize your equipment downtime."
+      }
+    },
+    "Pricing": {
+      "title": "Transparent Pricing",
+      "subtitle": "Competitive rates with no hidden costs",
+      "diagnosis": "Free diagnosis and quote",
+      "warranty": "Workshop guarantee included",
+      "traceability": "Complete traceability reports"
+    },
+    "Preparation": {
+      "title": "How to Prepare",
+      "subtitle": "Steps to take before our intervention",
+      "step1": "Stop the motor and ensure electrical safety",
+      "step2": "Gather motor documentation (model, power, voltage)",
+      "step3": "Describe the symptoms and operating conditions",
+      "step4": "Schedule the intervention at your convenience"
+    },
+    "Safety": {
+      "title": "Safety & Compliance",
+      "subtitle": "Your safety is our priority",
+      "certified": "Certified electricians with proper training",
+      "insurance": "Decennial insurance [INSURANCE_NUM]",
+      "standards": "Compliance with Moroccan electrical standards",
+      "documentation": "Complete safety documentation provided"
+    },
+    "FAQ": {
+      "title": "Frequently Asked Questions",
+      "subtitle": "Common questions about motor winding",
+      "q1": {
+        "question": "How long does motor rewinding take?",
+        "answer": "Typically 3-7 days depending on motor size and complexity. We provide precise timelines during diagnosis."
+      },
+      "q2": {
+        "question": "What is the warranty on rewound motors?",
+        "answer": "We provide a complete workshop guarantee on workmanship and materials, with traceability reports."
+      },
+      "q3": {
+        "question": "Do you work on all motor types?",
+        "answer": "Yes, we work on single-phase and three-phase motors, from small pumps to large industrial motors."
+      }
+    },
+    "CTA": {
+      "title": "Need Motor Winding Service?",
+      "subtitle": "Contact us for a free diagnosis and quote",
+      "button": "Request Free Quote",
+      "phone": "Call +212 667924515",
+      "whatsapp": "WhatsApp +212 667924515"
+    }
+  },
+  "Portfolio": {
+    "meta": {
+      "title": "Our Work | REO Electric",
+      "description": "Discover our successful electrical projects in Morocco. Case studies for hotel installations, electrical panels, and motor winding."
+    },
+    "Hero": {
+      "title": "Our Portfolio",
+      "description": "Discover our excellence projects in motor winding, electrical panels, and building installations in Morocco."
+    },
+    "caseStudies": {
+      "hotelTgbt": {
+        "title": "5-Star Hotel TGBT Modernization",
+        "description": "Complete renovation of the low voltage main panel of a 5-star hotel with standards compliance and safety improvement.",
+        "category": "Hotel Panels",
+        "location": "[CITY A]",
+        "duration": "3 weeks",
+        "challenges": {
+          "old": "Obsolete and non-compliant TGBT",
+          "compliance": "Moroccan standards compliance",
+          "continuity": "Maintain service continuity"
+        },
+        "solutions": {
+          "design": "Custom design with selectivity",
+          "standards": "NF C 15-100 standards compliance",
+          "testing": "Complete testing and documentation"
+        },
+        "results": {
+          "zero": "Zero incidents since renovation",
+          "compliance": "Full standards compliance",
+          "satisfaction": "100% client satisfaction"
+        }
+      },
+      "motorRewinding": {
+        "title": "Industrial Motor Winding",
+        "description": "Repair and winding of a 50kW industrial motor with performance improvement and workshop guarantee.",
+        "category": "Motor Winding",
+        "location": "[CITY B]",
+        "duration": "5 days",
+        "challenges": {
+          "performance": "Motor performance decline",
+          "downtime": "Critical production shutdown",
+          "cost": "High replacement cost"
+        },
+        "solutions": {
+          "diagnosis": "Complete diagnosis and analysis",
+          "rewinding": "High-quality copper winding",
+          "testing": "Performance and insulation testing"
+        },
+        "results": {
+          "performance": "100% restored performance",
+          "efficiency": "Efficiency improvement +15%",
+          "warranty": "2-year workshop warranty"
+        }
+      },
+      "buildingInstallation": {
+        "title": "Building Electrical Installation",
+        "description": "Complete electrical installation of a residential building with rising mains, GTL, and common lighting.",
+        "category": "Installations",
+        "location": "[CITY C]",
+        "duration": "6 weeks",
+        "challenges": {
+          "complexity": "Network complexity",
+          "standards": "Moroccan standards compliance",
+          "coordination": "Coordination with other trades"
+        },
+        "solutions": {
+          "planning": "Detailed work planning",
+          "installation": "Installation by specialized teams",
+          "documentation": "Complete technical documentation"
+        },
+        "results": {
+          "compliance": "Full standards compliance",
+          "efficiency": "Optimized energy efficiency",
+          "satisfaction": "100% developer satisfaction"
+        }
+      },
+      "restaurantPanels": {
+        "title": "Restaurant Kitchen Panels",
+        "description": "Installation of specialized electrical panels for restaurant kitchen with IP65 protection and enhanced safety.",
+        "category": "Specialized Panels",
+        "location": "[CITY D]",
+        "duration": "1 week",
+        "challenges": {
+          "hygiene": "Food hygiene requirements",
+          "safety": "Enhanced kitchen safety",
+          "continuity": "Restaurant service continuity"
+        },
+        "solutions": {
+          "design": "IP65 design and sealing",
+          "materials": "Food-compatible materials",
+          "protection": "Enhanced differential protections"
+        },
+        "results": {
+          "safety": "Maximum kitchen safety",
+          "compliance": "HACCP compliance",
+          "performance": "Optimal performance"
+        }
+      },
+      "industrialMotors": {
+        "title": "Industrial Motor Winding",
+        "description": "Emergency repair of 3 critical industrial motors with 24h intervention and quick return to service.",
+        "category": "Emergency Winding",
+        "location": "[CITY E]",
+        "duration": "72h",
+        "challenges": {
+          "critical": "Critical production shutdown",
+          "downtime": "Very high shutdown cost",
+          "performance": "Degraded motor performance"
+        },
+        "solutions": {
+          "emergency": "24h emergency intervention",
+          "rewinding": "High-quality copper winding",
+          "testing": "Complete testing before return to service"
+        },
+        "results": {
+          "uptime": "Return to service in 72h",
+          "performance": "100% restored performance",
+          "reliability": "Maximum reliability"
+        }
+      },
+      "apartmentBuilding": {
+        "title": "Apartment Building Electrical Renovation",
+        "description": "Complete renovation of the electrical installation of an old building with standards compliance and safety improvement.",
+        "category": "Renovation",
+        "location": "[CITY F]",
+        "duration": "4 weeks",
+        "challenges": {
+          "old": "Obsolete and dangerous installation",
+          "safety": "Significant electrical risks",
+          "standards": "Mandatory standards compliance"
+        },
+        "solutions": {
+          "renovation": "Complete network renovation",
+          "installation": "New panel installation",
+          "compliance": "NF C 15-100 standards compliance"
+        },
+        "results": {
+          "safety": "Maximum safety for residents",
+          "compliance": "Full standards compliance",
+          "satisfaction": "100% co-owner satisfaction"
+        }
+      }
+    },
+    "location": "Location",
+    "challenges": "Challenges",
+    "solutions": "Solutions",
+    "results": "Results",
+    "CTA": {
+      "title": "Interested in Your Project?",
+      "subtitle": "Contact us to discuss your electrical needs",
+      "button": "Request Quote",
+      "phone": "Call +212 667924515"
+    },
+    "meta": {
+      "title": "Portfolio - REO Electrician Morocco",
+      "description": "Discover our excellence projects in motor winding, electrical panels, and building installations in Morocco."
+    }
+  },
+  "FAQ": {
+    "meta": {
+      "title": "Frequently Asked Questions | REO Electric",
+      "description": "Answers to frequently asked questions about our electrical services, motor winding, electrical panels, and installations in Morocco."
+    },
+    "Hero": {
+      "title": "Frequently Asked Questions",
+      "description": "Find answers to your questions about our electrical services in Morocco."
+    },
+    "search": {
+      "placeholder": "Search for a question..."
+    },
+    "categories": {
+      "general": {
+        "title": "General Questions"
+      },
+      "bobinage": {
+        "title": "Motor Winding"
+      },
+      "armoires": {
+        "title": "Electrical Panels"
+      },
+      "installations": {
+        "title": "Building Installations"
+      },
+      "pricing": {
+        "title": "Pricing and Quotes"
+      }
+    },
+    "questions": {
+      "whatServices": {
+        "question": "What services does REO offer?",
+        "answer": "We offer three main services: motor winding (diagnosis, repair, workshop guarantee), electrical panels for hotels (TGBT, distribution panels, kitchens, laundry rooms), and building installations (rising mains, GTL, common lighting, surge protectors). All our services comply with Moroccan standards and include complete documentation."
+      },
+      "serviceArea": {
+        "question": "In which area do you operate?",
+        "answer": "We operate mainly in the [REGION] region with an extended service area. For emergency interventions, we can travel to a wider radius. Contact us to check availability in your area."
+      },
+      "emergencyService": {
+        "question": "Do you offer emergency service?",
+        "answer": "Yes, we offer 24/7 emergency service for critical breakdowns. Call +212 667924515 or WhatsApp +212 667924515 for rapid intervention. Our emergency rates are transparent and communicated before intervention."
+      },
+      "certification": {
+        "question": "Are you certified and insured?",
+        "answer": "Yes, we are certified and insured. We have decennial insurance [INSURANCE_NUM], electrician license [LICENSE_NUM], and comply with all Moroccan standards. All our electricians are trained and certified."
+      },
+      "motorDiagnosis": {
+        "question": "How does motor diagnosis work?",
+        "answer": "The diagnosis includes: electrical tests (insulation, resistance), vibration analysis, performance verification, and fault identification. We provide a detailed report with photos and recommendations. The diagnosis is free and without commitment."
+      },
+      "rewindingTime": {
+        "question": "How long does motor rewinding take?",
+        "answer": "The delay depends on motor size and complexity: small motors (1-3 days), medium motors (3-7 days), large industrial motors (7-15 days). We communicate a precise timeline during diagnosis and respect our commitments."
+      },
+      "warranty": {
+        "question": "What warranty on rewinding?",
+        "answer": "We offer a complete workshop warranty: 2 years on rewinding, 1 year on parts, with complete traceability. The warranty covers manufacturing and assembly defects. We provide a warranty certificate with serial number."
+      },
+      "panelDesign": {
+        "question": "Do you design custom panels?",
+        "answer": "Yes, we design all our panels to measure according to your needs: sizing, selectivity, protection, aesthetics. We respect NF C 15-100 standards and hotel specifications. Each project is unique and documented."
+      },
+      "compliance": {
+        "question": "Do you comply with Moroccan standards?",
+        "answer": "Absolutely. We comply with all Moroccan standards: NF C 15-100, hotel standards, thermal regulations. We provide complete technical documentation and compliance certificates. All our work is controlled and validated."
+      },
+      "buildingInstallation": {
+        "question": "What does a building installation include?",
+        "answer": "The installation includes: rising mains, GTL (General Low Voltage), distribution panels, common lighting, surge protectors, grounding, and technical documentation. We also handle administrative procedures and controls."
+      },
+      "timeline": {
+        "question": "What timeline for a building installation?",
+        "answer": "The delay depends on size: small building (2-4 weeks), medium (4-8 weeks), large (8-16 weeks). We plan work in phases to minimize inconvenience. A detailed schedule is provided before start."
+      },
+      "quoteProcess": {
+        "question": "How to get a quote?",
+        "answer": "Contact us by phone +212 667924515, WhatsApp +212 667924515, or email [EMAIL]. We schedule a free visit to study your needs, then send you a detailed quote within 48h. The quote is free and without commitment."
+      },
+      "paymentMethods": {
+        "question": "What payment methods do you accept?",
+        "answer": "We accept: bank transfer, check, cash, and installment payment for large projects. A 30% deposit is required at start, balance upon completion. We provide all invoices and supporting documents."
+      }
+    },
+    "CTA": {
+      "title": "Your Question Not Here?",
+      "subtitle": "Contact us directly for any specific question",
+      "button": "Contact Us",
+      "phone": "Call +212 667924515"
+    },
+    "meta": {
+      "title": "FAQ - REO Electrician Morocco",
+      "description": "Frequently asked questions about our electrical services: motor winding, hotel panels, building installations in Morocco."
+    }
+  },
+  "Common": {
+    "select": "Select",
+    "services": {
+      "residential": "Residential Services",
+      "commercial": "Commercial Services",
+      "emergency": "Emergency Services",
+      "installation": "Installation",
+      "maintenance": "Maintenance",
+      "repair": "Repair",
+      "other": "Other"
+    },
+    "workingHours": "Monday - Friday: 8:00 AM - 6:00 PM\nSaturday: 9:00 AM - 4:00 PM\nSunday: Emergency only",
+    "address": "[ADDRESS], Agadir",
+    "phone": "+212 667924515",
+    "email": "[EMAIL]",
+    "emergencyPhone": "[EMERGENCY_PHONE]",
+    "whatsapp": "+212 667924515",
+    "zone": "[REGION]"
+  },
+  "Contact": {
+    "title": "Contact Us",
+    "subtitle": "We're here to help with all your electrical needs",
+    "formTitle": "Send us a message",
+    "formDescription": "Fill out the form below and we'll get back to you as soon as possible",
+    "name": "Name",
+    "phone": "Phone",
+    "email": "Email",
+    "serviceType": "Service Type",
+    "message": "Message",
+    "send": "Send",
+    "contactInfo": "Contact Information",
+    "address": "Address",
+    "workingHours": "Working Hours",
+    "emergency": "24/7 Emergency",
+    "emergencyHelp": "For emergencies, call us at",
+    "meta": {
+      "title": "Contact | REO Electric",
+      "description": "Contact REO Electric for a free quote or for emergencies. Available 24/7 in Agadir and Morocco."
+    }
+  }
+}

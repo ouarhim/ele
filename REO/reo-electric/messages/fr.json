@@ -1,0 +1,983 @@
+{
+  "Navigation": {
+    "home": "Accueil",
+    "about": "À propos",
+    "services": "Services",
+    "blog": "Blog",
+    "contact": "Contact",
+    "portfolio": "Portfolio",
+    "faq": "FAQ"
+  },
+  "Hero": {
+    "title": "Alimentez votre avenir avec de l'énergie propre",
+    "description": "Fournir des solutions électriques durables et fiables pour les particuliers et les entreprises de la région.",
+    "cta": "En savoir plus",
+    "contact": "Contactez-nous"
+  },
+  "Services": {
+    "title": "Nos Services",
+    "subtitle": "Nous offrons une gamme complète de services électriques conçus pour répondre à vos besoins",
+    "residential": {
+      "title": "Services résidentiels",
+      "description": "Solutions électriques complètes pour votre maison, y compris les installations, réparations et mises à niveau."
+    },
+    "commercial": {
+      "title": "Services commerciaux",
+      "description": "Services électriques professionnels pour les entreprises de toutes tailles avec un minimum de perturbations."
+    },
+    "emergency": {
+      "title": "Assistance d'urgence",
+      "description": "Services électriques d'urgence 24h/24 et 7j/7 pour maintenir votre maison ou entreprise en sécurité."
+    }
+  },
+  "WhyChoose": {
+    "title": "Pourquoi choisir REO Electric ?",
+    "subtitle": "Notre engagement envers l'excellence nous distingue de la concurrence",
+    "certified": {
+      "title": "Électriciens certifiés",
+      "description": "Tous nos électriciens sont agréés, assurés et formés en continu aux dernières technologies."
+    },
+    "quality": {
+      "title": "Garantie de qualité",
+      "description": "Nous garantissons notre travail avec des garanties et des assurances de premier plan dans l'industrie."
+    },
+    "experience": {
+      "title": "20+ ans d'expérience",
+      "description": "Deux décennies d'expérience au service de clients résidentiels et commerciaux."
+    }
+  },
+  "Testimonials": {
+    "title": "Ce que disent nos clients",
+    "testimonial1": "REO Electric a transformé notre bureau avec une mise à niveau électrique complète. Professionnel, efficace et propre !",
+    "author1": "Sarah Johnson, Gestionnaire de bureau",
+    "testimonial2": "Quand notre maison a perdu le courant pendant une tempête, leur service d'urgence 24/7 a sauvé la journée. Hautement recommandé !",
+    "author2": "Michael Torres, Propriétaire"
+  },
+  "Contact": {
+    "title": "Contactez-nous",
+    "subtitle": "Vous avez des questions sur nos services ou besoin d'aide ? Contactez notre équipe et nous vous répondrons dès que possible.",
+    "name": "Nom",
+    "email": "Email",
+    "phone": "Numéro de téléphone",
+    "service": "Type de service",
+    "message": "Message",
+    "send": "Envoyer le message",
+    "address": "Adresse",
+    "workingHours": "Heures de travail",
+    "emergency": "Services d'urgence",
+    "required": "Requis"
+  },
+  "Footer": {
+    "copyright": "© {year} REO Electric Company. Tous droits réservés.",
+    "rights": "Tous droits réservés."
+  },
+  "Blog": {
+    "title": "Dernières nouvelles et idées",
+    "subtitle": "Restez informé des dernières tendances, conseils et nouvelles de l'industrie électrique",
+    "readMore": "Lire la suite",
+    "previous": "Précédent",
+    "next": "Suivant",
+    "backToBlog": "← Retour au blog",
+    "share": "Partager",
+    "relatedPosts": "Articles similaires",
+    "by": "Par",
+    "posts": {
+      "renewableEnergy": {
+        "title": "L'avenir de l'énergie renouvelable",
+        "excerpt": "Explorer les dernières tendances dans les technologies d'énergie renouvelable et leur impact sur l'industrie."
+      },
+      "energyEfficiency": {
+        "title": "Conseils d'efficacité énergétique pour votre maison",
+        "excerpt": "Moyens simples et efficaces de réduire votre consommation d'énergie et de diminuer vos factures d'électricité."
+      },
+      "smartGrid": {
+        "title": "Comprendre la technologie des réseaux intelligents",
+        "excerpt": "Comment les réseaux intelligents révolutionnent la manière dont nous générons, distribuons et consommons l'électricité."
+      },
+      "electricalSafety": {
+        "title": "Sécurité électrique : Guide pour les propriétaires",
+        "excerpt": "Conseils essentiels pour assurer la sécurité électrique dans votre maison."
+      },
+      "solarPanels": {
+        "title": "Avantages des panneaux solaires résidentiels",
+        "excerpt": "Découvrez pourquoi de plus en plus de propriétaires adoptent l'énergie solaire."
+      },
+      "ledLighting": {
+        "title": "Tendances de l'éclairage LED pour 2023",
+        "excerpt": "Les dernières innovations en matière d'éclairage LED et leurs applications."
+      }
+    }
+  },
+  "HomePage": {
+    "Hero": {
+      "title": "Électricien certifié à Agadir – 20+ ans d'expertise",
+      "description": "REO accompagne hôtels et immeubles en bobinage, armoires et installations, avec diagnostics précis, délais tenus et garanties claires au Maroc.",
+      "cta": "Demandez un devis gratuit",
+      "contact": "Urgence 24/7",
+      "imageAlt": "Électricien professionnel à Agadir - interventions sûres et conformes"
+    },
+    "Services": {
+      "title": "Nos Services Spécialisés",
+      "subtitle": "Solutions électriques pour hôtels, immeubles et moteurs au Maroc",
+      "bobinage": {
+        "title": "Bobinage Moteurs",
+        "description": "Diagnostic, rebobinage cuivre, tests d'isolement et vibrations. Garantie atelier avec rapports de traçabilité."
+      },
+      "armoires": {
+        "title": "Armoires Hôtels",
+        "description": "Conception, modernisation, mise aux normes TGBT et tableaux. Sélectivité et continuité de service."
+      },
+      "installations": {
+        "title": "Installations Immeubles",
+        "description": "Distribution, protections, mise à la terre. Études de charge et dossier de conformité complet."
+      }
+    },
+    "WhyChoose": {
+      "title": "Pourquoi choisir REO ?",
+      "subtitle": "20+ ans d'expertise au service des hôtels et immeubles au Maroc",
+      "experience": {
+        "title": "20+ ans d'expérience",
+        "description": "Expertise reconnue en bobinage, armoires hôtels et installations d'immeubles au Maroc."
+      },
+      "safety": {
+        "title": "Sécurité & Conformité",
+        "description": "Assurance décennale [NUM_ASSURANCE], licence [NUM_LICENCE], procédures documentées."
+      },
+      "proximity": {
+        "title": "Service de Proximité",
+        "description": "Interlocuteur dédié, suivi de chantier, astreinte 24/7 et interventions d'urgence."
+      }
+    },
+    "Testimonials": {
+      "title": "Témoignages Clients",
+      "testimonial1": "Service réactif, zéro incident depuis la rénovation de notre TGBT. Délais tenus, équipe professionnelle.",
+      "author1": "Directeur Hôtel, [VILLE A]",
+      "testimonial2": "Rebobinage moteur en 72h, performance au rendez-vous. Équipe pédagogue et efficace.",
+      "author2": "Responsable Maintenance, [VILLE B]"
+    },
+    "Contact": {
+      "title": "Contactez [NOM_ENTREPRISE]",
+      "subtitle": "Devis gratuit • Urgence 24/7 • WhatsApp +212 667924515 • Zone [REGION]"
+    }
+  },
+  "About": {
+    "Hero": {
+      "title": "À propos de [NOM_ENTREPRISE]",
+      "description": "Électricien spécialisé au Maroc depuis 20+ ans : bobinage moteurs, armoires hôtels, installations immeubles. Service de proximité, conformité et réactivité."
+    },
+    "Story": {
+      "title": "Notre Histoire",
+      "description1": "[NOM_ENTREPRISE] accompagne hôtels et immeubles au Maroc depuis plus de 20 ans, du diagnostic à la réception, avec un service de proximité et des chantiers tenus dans les délais.",
+      "description2": "Notre priorité : sécurité, continuité de service et respect des engagements. Équipe qualifiée, atelier de bobinage, support SAV et interlocuteur unique pour chaque projet.",
+      "yearsExperience": "Années d'Expérience",
+      "projectsCompleted": "Projets Réalisés",
+      "satisfactionRate": "Satisfaction Client",
+      "imageAlt": "Équipe [NOM_ENTREPRISE] à [VILLE]"
+    },
+    "Mission": {
+      "title": "Notre Mission",
+      "description": "Interventions sûres et conformes aux normes marocaines. Bobinage, armoires, installations avec diagnostics précis, délais tenus et garanties claires."
+    },
+    "Vision": {
+      "title": "Notre Vision",
+      "description": "Être l'électricien de référence pour hôtels et immeubles au Maroc, reconnu pour notre expertise technique, notre réactivité et notre service de proximité."
+    },
+    "Values": {
+      "title": "Nos Valeurs",
+      "subtitle": "Les principes qui guident notre travail au Maroc",
+      "safety": {
+        "title": "Sécurité & Conformité",
+        "description": "Assurance décennale [NUM_ASSURANCE], licence [NUM_LICENCE], procédures documentées et tests de réception."
+      },
+      "proximity": {
+        "title": "Service de Proximité",
+        "description": "Interlocuteur dédié, suivi de chantier, astreinte 24/7 et interventions d'urgence dans la région [REGION]."
+      },
+      "efficiency": {
+        "title": "Efficacité Énergétique",
+        "description": "Optimisation des consommations pour hôtels et immeubles, économies sur les parties communes et factures."
+      },
+      "reliability": {
+        "title": "Fiabilité",
+        "description": "Délais tenus, diagnostics précis, rapports de tests et traçabilité complète pour chaque intervention."
+      }
+    },
+    "Team": {
+      "title": "Notre Équipe",
+      "subtitle": "Professionnels qualifiés au service de [NOM_ENTREPRISE]",
+      "chef": {
+        "name": "Chef de Projet",
+        "position": "Responsable Technique",
+        "description": "20+ ans d'expérience en bobinage et installations. Coordination des chantiers et suivi client."
+      },
+      "electriciens": {
+        "name": "Électriciens Qualifiés",
+        "position": "Techniciens Certifiés",
+        "description": "Équipe formée aux normes marocaines, interventions sur hôtels et immeubles."
+      },
+      "atelier": {
+        "name": "Atelier Bobinage",
+        "position": "Spécialistes Moteurs",
+        "description": "Diagnostic, rebobinage cuivre, tests d'isolement et équilibrage en atelier."
+      }
+    },
+    "Contact": {
+      "title": "Demander un Diagnostic Gratuit",
+      "subtitle": "Contactez [NOM_ENTREPRISE] pour vos projets électriques à [VILLE] et [REGION]",
+      "cta": "Appelez [NUM_TEL]"
+    }
+  },
+  "Bobinage": {
+    "Hero": {
+      "title": "Atelier de bobinage à [VILLE]",
+      "description": "Diagnostic, rebobinage cuivre, imprégnation, équilibrage et tests d'isolement pour restaurer performance et longévité des moteurs. Rapports et traçabilité fournis."
+    },
+    "Process": {
+      "title": "Notre Processus",
+      "diagnostic": {
+        "title": "Diagnostic Complet",
+        "description": "Analyse des pannes, mesure d'isolement, identification des défauts de bobinage."
+      },
+      "demontage": {
+        "title": "Démontage & Nettoyage",
+        "description": "Démontage soigneux, nettoyage des pièces, préparation pour rebobinage."
+      },
+      "rebobinage": {
+        "title": "Rebobinage Cuivre",
+        "description": "Rebobinage avec fil cuivre émaillé, isolants classe H, imprégnation résine."
+      },
+      "tests": {
+        "title": "Tests & Contrôles",
+        "description": "Tests d'isolement, équilibrage, vibrations, essais à vide et en charge."
+      },
+      "imageAlt": "Atelier de bobinage professionnel à [VILLE]"
+    },
+    "Benefits": {
+      "title": "Avantages du Rebobinage",
+      "subtitle": "Pourquoi choisir le rebobinage plutôt que le remplacement",
+      "longevity": {
+        "title": "Prolonge la Durée de Vie",
+        "description": "Restauration complète des performances d'origine du moteur."
+      },
+      "efficiency": {
+        "title": "Restaure le Rendement",
+        "description": "Retour aux caractéristiques énergétiques optimales."
+      },
+      "reliability": {
+        "title": "Réduit les Arrêts",
+        "description": "Moins d'interruptions d'activité grâce à la fiabilité restaurée."
+      },
+      "traceability": {
+        "title": "Traçabilité Complète",
+        "description": "Rapports de tests et documentation technique fournis."
+      }
+    },
+    "Pricing": {
+      "title": "Délais & Tarifs",
+      "subtitle": "Tarifs indicatifs selon la complexité du moteur",
+      "small": {
+        "title": "Petit Moteur",
+        "description": "Moteurs < 10 kW",
+        "price": "À partir de [X MAD]",
+        "duration": "2-3 jours"
+      },
+      "industrial": {
+        "title": "Moteur Industriel",
+        "description": "Moteurs 10-100 kW",
+        "price": "À partir de [Y MAD]",
+        "duration": "5-10 jours"
+      },
+      "emergency": {
+        "title": "Urgence",
+        "description": "Intervention rapide",
+        "price": "Sur devis",
+        "duration": "24-72h"
+      }
+    },
+    "Preparation": {
+      "title": "À Préparer",
+      "plaque": {
+        "title": "Plaque Signalétique",
+        "description": "Caractéristiques techniques et historique de pannes."
+      },
+      "photos": {
+        "title": "Photos du Montage",
+        "description": "Conditions d'accès et de levage pour intervention."
+      },
+      "environment": {
+        "title": "Environnement d'Usage",
+        "description": "Tensions, protections existantes et conditions d'exploitation."
+      }
+    },
+    "Safety": {
+      "title": "Sécurité & Garantie",
+      "controls": "Contrôles d'isolement et essais à vide documentés",
+      "guarantee": "Garantie atelier sur bobinage selon usage",
+      "documentation": "Rapports de tests et traçabilité complète"
+    },
+    "FAQ": {
+      "title": "Questions Fréquentes",
+      "q1": {
+        "question": "Rebobiner ou remplacer ?",
+        "answer": "Cela dépend du diagnostic et du délai souhaité. Le rebobinage est souvent plus économique et rapide."
+      },
+      "q2": {
+        "question": "Que couvre la garantie ?",
+        "answer": "Défauts de bobinage pendant la période définie selon l'usage et les conditions d'exploitation."
+      },
+      "q3": {
+        "question": "Intervenez-vous sur site ?",
+        "answer": "Oui, selon l'équipement et la sécurité. Nous avons un atelier à [VILLE] et intervenons aussi sur site."
+      }
+    },
+    "CTA": {
+      "title": "Besoin d'un Rebobinage ?",
+      "subtitle": "Contactez [NOM_ENTREPRISE] pour un diagnostic gratuit et un devis personnalisé",
+      "devis": "Demander un Devis",
+      "call": "Appeler [NUM_TEL]"
+    }
+  },
+  "ArmoiresHotels": {
+    "Hero": {
+      "title": "Armoires électriques pour hôtels",
+      "description": "Conception et modernisation d'armoires hôtelières (TGBT, tableaux), sélectivité, repérage, continuité de service, dossier technique et maintenance planifiée."
+    },
+    "Process": {
+      "title": "Notre Processus",
+      "audit": {
+        "title": "Audit & Étude",
+        "description": "Analyse des besoins, bilans de puissance, schémas unifilaires et choix des appareillages."
+      },
+      "design": {
+        "title": "Conception & Fabrication",
+        "description": "Schémas détaillés, choix des coffrets IP, câblage et repérage selon normes hôtelières."
+      },
+      "installation": {
+        "title": "Installation & Câblage",
+        "description": "Montage, câblage, mise en place des protections différentielles et tests de continuité."
+      },
+      "testing": {
+        "title": "Tests & Mise en Service",
+        "description": "Tests de serrage, continuité, DDR, IP et remise du dossier technique complet."
+      },
+      "imageAlt": "Armoire TGBT d'hôtel conforme à [VILLE]"
+    },
+    "Services": {
+      "title": "Nos Services",
+      "subtitle": "Solutions complètes pour hôtels et établissements",
+      "tgbt": {
+        "title": "TGBT Hôtel",
+        "description": "Tableau général basse tension, sélectivité, protections et continuité de service."
+      },
+      "divisionnaires": {
+        "title": "Tableaux Divisionnaires",
+        "description": "Tableaux d'étage, cuisines, buanderies avec repérage et maintenance facilitée."
+      },
+      "cuisines": {
+        "title": "Armoires Cuisines",
+        "description": "Coffrets IP adaptés, DDR type A, conformité inspection et sécurité renforcée."
+      },
+      "buanderies": {
+        "title": "Armoires Buanderies",
+        "description": "Protections spécifiques, environnement humide, maintenance préventive."
+      }
+    },
+    "Benefits": {
+      "title": "Avantages",
+      "subtitle": "Pourquoi moderniser vos armoires électriques",
+      "safety": {
+        "title": "Sécurité Clients",
+        "description": "Protections adaptées, sélectivité et continuité de service garanties."
+      },
+      "continuity": {
+        "title": "Diminution des Coupures",
+        "description": "Sélectivité optimisée pour isoler les pannes sans affecter l'ensemble."
+      },
+      "maintenance": {
+        "title": "Maintenance Facilitée",
+        "description": "Repérage rigoureux, documentation complète et interventions rapides."
+      },
+      "optimization": {
+        "title": "Optimisation Énergétique",
+        "description": "Économies sur les communs, gestion intelligente des charges."
+      }
+    },
+    "Pricing": {
+      "title": "Délais & Tarifs",
+      "subtitle": "Tarifs selon la complexité et la taille de l'hôtel",
+      "etage": {
+        "title": "Tableau d'Étage",
+        "description": "Tableau divisionnaire standard",
+        "price": "À partir de [X MAD]",
+        "duration": "3-7 jours"
+      },
+      "tgbt": {
+        "title": "TGBT Hôtel Moyen",
+        "description": "Tableau général complet",
+        "price": "Sur devis",
+        "duration": "2-4 semaines"
+      },
+      "conformite": {
+        "title": "Mise en Conformité",
+        "description": "Cuisine/buanderie",
+        "price": "À partir de [Y MAD]",
+        "duration": "1-2 semaines"
+      }
+    },
+    "Preparation": {
+      "title": "À Préparer",
+      "plans": {
+        "title": "Plans de Niveaux",
+        "description": "Plans architecturaux et bilans de puissance par étage."
+      },
+      "incidents": {
+        "title": "Historique d'Incidents",
+        "description": "Rapport des pannes récentes et charges critiques identifiées."
+      },
+      "creneaux": {
+        "title": "Fenêtres d'Intervention",
+        "description": "Créneaux sans gêne clients pour les interventions techniques."
+      },
+      "acces": {
+        "title": "Accès aux Locaux",
+        "description": "Accès aux locaux techniques et autorisations nécessaires."
+      }
+    },
+    "Safety": {
+      "title": "Sécurité & Garantie",
+      "tests": "Tests de serrage, continuité, DDR, IP documentés",
+      "documentation": "Dossier technique remis (schémas, repérage, notices)",
+      "guarantee": "Garantie travaux selon marché et maintenance préventive"
+    },
+    "FAQ": {
+      "title": "Questions Fréquentes",
+      "q1": {
+        "question": "Qu'est-ce que la sélectivité ?",
+        "answer": "Coordination des protections pour isoler une panne sans affecter l'ensemble de l'installation."
+      },
+      "q2": {
+        "question": "Pourquoi moderniser un TGBT ?",
+        "answer": "Pour améliorer la sécurité, la continuité d'exploitation et faciliter la maintenance."
+      },
+      "q3": {
+        "question": "Fournissez-vous la documentation ?",
+        "answer": "Oui, dossier technique complet avec schémas, repérage et notices de maintenance."
+      }
+    },
+    "CTA": {
+      "title": "Besoin de Moderniser vos Armoires ?",
+      "subtitle": "Contactez [NOM_ENTREPRISE] pour un audit gratuit et un devis personnalisé",
+      "devis": "Demander un Devis",
+      "call": "Appeler [NUM_TEL]"
+    }
+  },
+  "InstallationsImmeubles": {
+    "Hero": {
+      "title": "Installations électriques d'immeubles",
+      "description": "Études de charge, schémas, câblage, mise à la terre, essais et dossier de conformité pour parties communes et locaux techniques."
+    },
+    "Process": {
+      "title": "Notre Processus",
+      "etude": {
+        "title": "Étude & Schémas",
+        "description": "Études de charge, schémas unifilaires, calculs de sections et choix des protections."
+      },
+      "schemas": {
+        "title": "Schémas Unifilaires",
+        "description": "Plans détaillés, repérage, liaisons équipotentielles et mise à la terre."
+      },
+      "cablage": {
+        "title": "Câblage & Installation",
+        "description": "Pose des câbles, installation des disjoncteurs, DDR et barres de terre."
+      },
+      "essais": {
+        "title": "Essais & Réception",
+        "description": "Contrôles de continuité, DDR, terre et mise en service avec dossier de conformité."
+      },
+      "imageAlt": "Tableau électrique commun d'immeuble à [VILLE]"
+    },
+    "Services": {
+      "title": "Nos Services",
+      "subtitle": "Solutions complètes pour immeubles et copropriétés",
+      "colonnes": {
+        "title": "Colonnes Montantes",
+        "description": "Distribution verticale, câblage repéré et protections adaptées."
+      },
+      "gtl": {
+        "title": "GTL/ETEL",
+        "description": "Gaine technique logement, tableau de répartition et compteurs."
+      },
+      "eclairage": {
+        "title": "Éclairage Commun",
+        "description": "Éclairage des parties communes, escaliers et espaces communs."
+      },
+      "parafoudre": {
+        "title": "Parafoudre",
+        "description": "Protection contre la foudre si requis par la réglementation."
+      }
+    },
+    "Benefits": {
+      "title": "Avantages",
+      "subtitle": "Pourquoi faire appel à un professionnel",
+      "safety": {
+        "title": "Sécurité Occupants",
+        "description": "Conformité des installations et sécurité des résidents garanties."
+      },
+      "maintenance": {
+        "title": "Maintenance Facilitée",
+        "description": "Repérage clair, documentation complète et interventions rapides."
+      },
+      "optimization": {
+        "title": "Optimisation Énergétique",
+        "description": "Économies sur les parties communes et factures d'électricité."
+      },
+      "extensions": {
+        "title": "Prédisposition Extensions",
+        "description": "Installation prête pour extensions futures (panneaux solaires, etc.)."
+      }
+    },
+    "Pricing": {
+      "title": "Délais & Tarifs",
+      "subtitle": "Tarifs selon la taille et la complexité de l'immeuble",
+      "petit": {
+        "title": "Immeuble < 5 étages",
+        "description": "Installation complète",
+        "price": "À partir de [X MAD]",
+        "duration": "2-4 semaines"
+      },
+      "grand": {
+        "title": "Immeuble > 5 étages",
+        "description": "Installation complexe",
+        "price": "Sur devis",
+        "duration": "4-8 semaines"
+      },
+      "renovation": {
+        "title": "Rénovation Communs",
+        "description": "Mise aux normes",
+        "price": "À partir de [Y MAD]",
+        "duration": "1-3 semaines"
+      }
+    },
+    "Preparation": {
+      "title": "À Préparer",
+      "plans": {
+        "title": "Plans Architecturaux",
+        "description": "Plans de niveaux et schémas existants de l'immeuble."
+      },
+      "puissances": {
+        "title": "Puissances Souscrites",
+        "description": "Contrats d'abonnement et points de livraison existants."
+      },
+      "reglement": {
+        "title": "Règlement de Copropriété",
+        "description": "Règles de copropriété et autorisations nécessaires."
+      },
+      "creneaux": {
+        "title": "Fenêtres d'Intervention",
+        "description": "Créneaux d'intervention sans gêne pour les résidents."
+      }
+    },
+    "Safety": {
+      "title": "Sécurité & Garantie",
+      "controls": "Contrôles : continuité, DDR, terre, surcharge/court-circuit",
+      "guarantee": "Garantie travaux selon marché et dossier de réception",
+      "documentation": "Dossier technique complet avec schémas et rapports d'essais"
+    },
+    "FAQ": {
+      "title": "Questions Fréquentes",
+      "q1": {
+        "question": "Quelles exigences principales ?",
+        "answer": "Protections, terre, repérage, essais et conformité aux normes en vigueur."
+      },
+      "q2": {
+        "question": "Peut-on phaser par cage d'escalier ?",
+        "answer": "Oui, avec planification et coordination des interventions par étage."
+      },
+      "q3": {
+        "question": "Remettez-vous un dossier ?",
+        "answer": "Oui, schémas détaillés, rapports d'essais et documentation de conformité."
+      }
+    },
+    "CTA": {
+      "title": "Besoin d'une Installation d'Immeuble ?",
+      "subtitle": "Contactez [NOM_ENTREPRISE] pour une étude gratuite et un devis personnalisé",
+      "devis": "Demander un Devis",
+      "call": "Appeler [NUM_TEL]"
+    }
+  },
+  "Portfolio": {
+    "meta": {
+      "title": "Nos Réalisations | REO Electric",
+      "description": "Découvrez nos projets électriques réussis au Maroc. Études de cas pour installations hôtelières, armoires électriques et bobinage de moteurs."
+    },
+    "Hero": {
+      "title": "Nos Réalisations",
+      "description": "Découvrez nos projets d'excellence en bobinage, armoires électriques et installations d'immeubles au Maroc."
+    },
+    "caseStudies": {
+      "hotelTgbt": {
+        "title": "Modernisation TGBT Hôtel 5*",
+        "description": "Rénovation complète du tableau général basse tension d'un hôtel 5 étoiles avec mise aux normes et amélioration de la sécurité.",
+        "category": "Armoires Hôtels",
+        "location": "[VILLE A]",
+        "duration": "3 semaines",
+        "challenges": {
+          "old": "TGBT obsolète et non conforme",
+          "compliance": "Mise aux normes marocaines",
+          "continuity": "Maintenir la continuité de service"
+        },
+        "solutions": {
+          "design": "Conception sur mesure avec sélectivité",
+          "standards": "Respect des normes NF C 15-100",
+          "testing": "Tests complets et documentation"
+        },
+        "results": {
+          "zero": "Zéro incident depuis la rénovation",
+          "compliance": "Conformité totale aux normes",
+          "satisfaction": "Satisfaction client 100%"
+        }
+      },
+      "motorRewinding": {
+        "title": "Bobinage Moteur Industriel",
+        "description": "Réparation et bobinage d'un moteur industriel de 50kW avec amélioration des performances et garantie atelier.",
+        "category": "Bobinage",
+        "location": "[VILLE B]",
+        "duration": "5 jours",
+        "challenges": {
+          "performance": "Baisse de performance moteur",
+          "downtime": "Arrêt de production critique",
+          "cost": "Coût de remplacement élevé"
+        },
+        "solutions": {
+          "diagnosis": "Diagnostic complet et analyse",
+          "rewinding": "Bobinage cuivre haute qualité",
+          "testing": "Tests de performance et isolation"
+        },
+        "results": {
+          "performance": "Performance restaurée à 100%",
+          "efficiency": "Amélioration rendement +15%",
+          "warranty": "Garantie atelier 2 ans"
+        }
+      },
+      "buildingInstallation": {
+        "title": "Installation Électrique Immeuble",
+        "description": "Installation complète de l'électricité d'un immeuble résidentiel avec colonnes montantes, GTL et éclairage commun.",
+        "category": "Installations",
+        "location": "[VILLE C]",
+        "duration": "6 semaines",
+        "challenges": {
+          "complexity": "Complexité des réseaux",
+          "standards": "Respect des normes marocaines",
+          "coordination": "Coordination avec autres corps d'état"
+        },
+        "solutions": {
+          "planning": "Planification détaillée des travaux",
+          "installation": "Installation par équipes spécialisées",
+          "documentation": "Documentation technique complète"
+        },
+        "results": {
+          "compliance": "Conformité totale aux normes",
+          "efficiency": "Efficacité énergétique optimisée",
+          "satisfaction": "Satisfaction promoteur 100%"
+        }
+      },
+      "restaurantPanels": {
+        "title": "Tableaux Cuisine Restaurant",
+        "description": "Installation de tableaux électriques spécialisés pour cuisine de restaurant avec protection IP65 et sécurité renforcée.",
+        "category": "Armoires Spécialisées",
+        "location": "[VILLE D]",
+        "duration": "1 semaine",
+        "challenges": {
+          "hygiene": "Exigences d'hygiène alimentaire",
+          "safety": "Sécurité renforcée en cuisine",
+          "continuity": "Continuité de service restaurant"
+        },
+        "solutions": {
+          "design": "Conception IP65 et étanchéité",
+          "materials": "Matériaux compatibles alimentaire",
+          "protection": "Protections différentielles renforcées"
+        },
+        "results": {
+          "safety": "Sécurité maximale en cuisine",
+          "compliance": "Conformité HACCP",
+          "performance": "Performance optimale"
+        }
+      },
+      "industrialMotors": {
+        "title": "Bobinage Moteurs Industriels",
+        "description": "Réparation d'urgence de 3 moteurs industriels critiques avec intervention 24h et remise en service rapide.",
+        "category": "Bobinage Urgence",
+        "location": "[VILLE E]",
+        "duration": "72h",
+        "challenges": {
+          "critical": "Arrêt de production critique",
+          "downtime": "Coût d'arrêt très élevé",
+          "performance": "Performance moteurs dégradée"
+        },
+        "solutions": {
+          "emergency": "Intervention d'urgence 24h",
+          "rewinding": "Bobinage cuivre haute qualité",
+          "testing": "Tests complets avant remise en service"
+        },
+        "results": {
+          "uptime": "Remise en service en 72h",
+          "performance": "Performance restaurée 100%",
+          "reliability": "Fiabilité maximale"
+        }
+      },
+      "apartmentBuilding": {
+        "title": "Rénovation Électrique Immeuble",
+        "description": "Rénovation complète de l'installation électrique d'un immeuble ancien avec mise aux normes et amélioration de la sécurité.",
+        "category": "Rénovation",
+        "location": "[VILLE F]",
+        "duration": "4 semaines",
+        "challenges": {
+          "old": "Installation obsolète et dangereuse",
+          "safety": "Risques électriques importants",
+          "standards": "Mise aux normes obligatoire"
+        },
+        "solutions": {
+          "renovation": "Rénovation complète des réseaux",
+          "installation": "Installation nouveaux tableaux",
+          "compliance": "Mise aux normes NF C 15-100"
+        },
+        "results": {
+          "safety": "Sécurité maximale pour résidents",
+          "compliance": "Conformité totale aux normes",
+          "satisfaction": "Satisfaction copropriétaires 100%"
+        }
+      }
+    },
+    "location": "Lieu",
+    "challenges": "Défis",
+    "solutions": "Solutions",
+    "results": "Résultats",
+    "CTA": {
+      "title": "Votre Projet Nous Intéresse ?",
+      "subtitle": "Contactez-nous pour discuter de vos besoins électriques",
+      "button": "Demander un Devis",
+      "phone": "Appeler [NUM_TEL]"
+    },
+    "meta": {
+      "title": "Portfolio - [NOM_ENTREPRISE] Électricien Maroc",
+      "description": "Découvrez nos projets d'excellence en bobinage, armoires électriques et installations d'immeubles au Maroc."
+    }
+  },
+  "FAQ": {
+    "meta": {
+      "title": "Questions Fréquentes | REO Electric",
+      "description": "Réponses aux questions fréquentes sur nos services électriques, bobinage, armoires électriques et installations au Maroc."
+    },
+    "Hero": {
+      "title": "Questions Fréquentes",
+      "description": "Trouvez les réponses à vos questions sur nos services électriques au Maroc."
+    },
+    "search": {
+      "placeholder": "Rechercher une question..."
+    },
+    "categories": {
+      "general": {
+        "title": "Questions Générales"
+      },
+      "bobinage": {
+        "title": "Bobinage Moteurs"
+      },
+      "armoires": {
+        "title": "Armoires Électriques"
+      },
+      "installations": {
+        "title": "Installations Immeubles"
+      },
+      "pricing": {
+        "title": "Tarifs et Devis"
+      }
+    },
+    "questions": {
+      "whatServices": {
+        "question": "Quels services propose [NOM_ENTREPRISE] ?",
+        "answer": "Nous proposons trois services principaux : bobinage de moteurs (diagnostic, réparation, garantie atelier), armoires électriques pour hôtels (TGBT, tableaux divisionnaires, cuisines, buanderies), et installations d'immeubles (colonnes montantes, GTL, éclairage commun, parafoudre). Tous nos services respectent les normes marocaines et incluent une documentation complète."
+      },
+      "serviceArea": {
+        "question": "Dans quelle zone intervenez-vous ?",
+        "answer": "Nous intervenons principalement dans la région [REGION] avec une zone de service étendue. Pour les interventions d'urgence, nous pouvons nous déplacer dans un rayon plus large. Contactez-nous pour vérifier la disponibilité dans votre zone."
+      },
+      "emergencyService": {
+        "question": "Proposez-vous un service d'urgence ?",
+        "answer": "Oui, nous proposons un service d'urgence 24h/24, 7j/7 pour les pannes critiques. Appelez [NUM_TEL] ou WhatsApp +212 667924515 pour une intervention rapide. Nos tarifs d'urgence sont transparents et communiqués avant intervention."
+      },
+      "certification": {
+        "question": "Êtes-vous certifiés et assurés ?",
+        "answer": "Oui, nous sommes certifiés et assurés. Nous disposons d'une assurance décennale [ASSURANCE_NUM], d'une licence d'électricien [LICENCE_NUM], et respectons toutes les normes marocaines. Tous nos électriciens sont formés et certifiés."
+      },
+      "motorDiagnosis": {
+        "question": "Comment se déroule le diagnostic d'un moteur ?",
+        "answer": "Le diagnostic comprend : tests électriques (isolation, résistance), analyse des vibrations, vérification des performances, et identification des défauts. Nous fournissons un rapport détaillé avec photos et recommandations. Le diagnostic est gratuit et sans engagement."
+      },
+      "rewindingTime": {
+        "question": "Combien de temps prend le bobinage d'un moteur ?",
+        "answer": "Le délai dépend de la taille et complexité du moteur : petits moteurs (1-3 jours), moteurs moyens (3-7 jours), gros moteurs industriels (7-15 jours). Nous communiquons un délai précis lors du diagnostic et respectons nos engagements."
+      },
+      "warranty": {
+        "question": "Quelle garantie sur le bobinage ?",
+        "answer": "Nous offrons une garantie atelier complète : 2 ans sur le bobinage, 1 an sur les pièces, avec traçabilité complète. La garantie couvre les défauts de fabrication et de montage. Nous fournissons un certificat de garantie avec numéro de série."
+      },
+      "panelDesign": {
+        "question": "Concevez-vous les armoires sur mesure ?",
+        "answer": "Oui, nous concevons toutes nos armoires sur mesure selon vos besoins : dimensionnement, sélectivité, protection, esthétique. Nous respectons les normes NF C 15-100 et les spécificités hôtelières. Chaque projet est unique et documenté."
+      },
+      "compliance": {
+        "question": "Respectez-vous les normes marocaines ?",
+        "answer": "Absolument. Nous respectons toutes les normes marocaines : NF C 15-100, normes hôtelières, réglementation thermique. Nous fournissons la documentation technique complète et les certificats de conformité. Tous nos travaux sont contrôlés et validés."
+      },
+      "buildingInstallation": {
+        "question": "Que comprend une installation d'immeuble ?",
+        "answer": "L'installation comprend : colonnes montantes, GTL (Général Très Basse Tension), tableaux divisionnaires, éclairage commun, parafoudre, mise à la terre, et documentation technique. Nous gérons aussi les démarches administratives et les contrôles."
+      },
+      "timeline": {
+        "question": "Quel délai pour une installation d'immeuble ?",
+        "answer": "Le délai dépend de la taille : petit immeuble (2-4 semaines), moyen (4-8 semaines), grand (8-16 semaines). Nous planifions les travaux par phases pour minimiser les désagréments. Un planning détaillé vous est fourni avant démarrage."
+      },
+      "quoteProcess": {
+        "question": "Comment obtenir un devis ?",
+        "answer": "Contactez-nous par téléphone [NUM_TEL], WhatsApp +212 667924515, ou email [EMAIL]. Nous programmons une visite gratuite pour étudier vos besoins, puis vous envoyons un devis détaillé sous 48h. Le devis est gratuit et sans engagement."
+      },
+      "paymentMethods": {
+        "question": "Quels modes de paiement acceptez-vous ?",
+        "answer": "Nous acceptons : virement bancaire, chèque, espèces, et paiement échelonné pour les gros projets. Un acompte de 30% est demandé au démarrage, le solde à la réception. Nous fournissons toutes les factures et justificatifs."
+      }
+    },
+    "CTA": {
+      "title": "Votre Question N'est Pas Ici ?",
+      "subtitle": "Contactez-nous directement pour toute question spécifique",
+      "button": "Nous Contacter",
+      "phone": "Appeler [NUM_TEL]"
+    },
+    "meta": {
+      "title": "FAQ - [NOM_ENTREPRISE] Électricien Maroc",
+      "description": "Questions fréquentes sur nos services électriques : bobinage, armoires hôtels, installations immeubles au Maroc."
+    }
+  },
+  "Blog": {
+    "articles": {
+      "motorWindingGuide": {
+        "category": "Bobinage",
+        "date": "15 Janvier 2024",
+        "readTime": "5 min de lecture",
+        "title": "Guide Complet du Bobinage de Moteurs : Quand et Comment",
+        "excerpt": "Découvrez les signes qui indiquent qu'un moteur a besoin d'être rebobiné et le processus professionnel de réparation.",
+        "sections": {
+          "introduction": {
+            "title": "Introduction",
+            "content": "Le bobinage de moteurs est une spécialité technique qui permet de restaurer les performances d'un moteur électrique défaillant. Chez [NOM_ENTREPRISE], nous maîtrisons cette technique depuis plus de 20 ans, avec plus de 1000 moteurs rebobinés avec succès au Maroc."
+          },
+          "signs": {
+            "title": "Signes qu'un Moteur a Besoin d'être Rebobiné",
+            "overheating": {
+              "title": "Surchauffe",
+              "content": "Température anormalement élevée, odeur de brûlé, déformation des isolants."
+            },
+            "vibrations": {
+              "title": "Vibrations Anormales",
+              "content": "Vibrations excessives, bruits métalliques, déséquilibre du rotor."
+            },
+            "noise": {
+              "title": "Bruits Anormaux",
+              "content": "Grincements, sifflements, claquements électriques lors du démarrage."
+            },
+            "performance": {
+              "title": "Baisse de Performance",
+              "content": "Couple réduit, vitesse instable, consommation électrique excessive."
+            }
+          },
+          "process": {
+            "title": "Notre Processus de Bobinage",
+            "step1": {
+              "title": "Diagnostic Complet",
+              "content": "Tests électriques (isolation, résistance), analyse des vibrations, identification des défauts avec rapport détaillé."
+            },
+            "step2": {
+              "title": "Démontage et Nettoyage",
+              "content": "Démontage soigneux, nettoyage des pièces, identification et marquage des composants."
+            },
+            "step3": {
+              "title": "Bobinage Cuivre",
+              "content": "Retrait de l'ancien bobinage, installation du nouveau bobinage cuivre haute qualité, respect des spécifications d'origine."
+            },
+            "step4": {
+              "title": "Tests et Validation",
+              "content": "Tests de performance, vérification de l'isolation, essais de fonctionnement, documentation complète."
+            }
+          },
+          "benefits": {
+            "title": "Avantages du Bobinage Professionnel",
+            "cost": {
+              "title": "Économique",
+              "content": "Coût 3 à 5 fois moins cher qu'un moteur neuf, avec performances identiques."
+            },
+            "performance": {
+              "title": "Performance Restaurée",
+              "content": "Rendement optimal, couple nominal, vitesse de fonctionnement stable."
+            },
+            "warranty": {
+              "title": "Garantie Atelier",
+              "content": "Garantie 2 ans sur le bobinage, traçabilité complète, certificat de conformité."
+            }
+          },
+          "conclusion": {
+            "title": "Conclusion",
+            "content": "Le bobinage professionnel est la solution optimale pour restaurer vos moteurs défaillants. Avec [NOM_ENTREPRISE], bénéficiez de l'expertise de 20+ ans, d'un processus documenté et d'une garantie atelier complète. Contactez-nous pour un diagnostic gratuit."
+          }
+        },
+        "cta": {
+          "title": "Besoin d'un Bobinage de Moteur ?",
+          "subtitle": "Contactez [NOM_ENTREPRISE] pour un diagnostic gratuit et un devis personnalisé",
+          "button": "Demander un Devis",
+          "phone": "[NUM_TEL]",
+          "phoneText": "Appeler [NUM_TEL]"
+        },
+        "meta": {
+          "title": "Guide Complet du Bobinage de Moteurs - [NOM_ENTREPRISE]",
+          "description": "Découvrez quand et comment rebobiner un moteur électrique. Guide professionnel avec processus détaillé et avantages."
+        }
+      }
+    }
+  },
+  "Common": {
+    "select": "Sélectionner",
+    "services": {
+      "bobinage": "Bobinage Moteurs",
+      "armoires": "Armoires Hôtels",
+      "installations": "Installations Immeubles",
+      "maintenance": "Maintenance",
+      "urgence": "Urgence 24/7",
+      "devis": "Devis Gratuit"
+    },
+    "workingHours": "Lun-Sam [HEURES] • Urgence 24/7",
+    "address": "[ADRESSE], [VILLE]",
+    "phone": "[NUM_TEL]",
+    "email": "[EMAIL]",
+    "whatsapp": "+212 667924515",
+    "zone": "Zone de service : [REGION]"
+  },
+  "Contact": {
+    "title": "Contactez-nous",
+    "subtitle": "Nous sommes là pour vous aider avec tous vos besoins électriques",
+    "formTitle": "Envoyez-nous un message",
+    "formDescription": "Remplissez le formulaire ci-dessous et nous vous contacterons dès que possible",
+    "name": "Nom",
+    "phone": "Téléphone",
+    "email": "Email",
+    "serviceType": "Type de service",
+    "message": "Message",
+    "send": "Envoyer",
+    "contactInfo": "Informations de contact",
+    "address": "Adresse",
+    "workingHours": "Heures d'ouverture",
+    "emergency": "Urgences 24/7",
+    "emergencyHelp": "Pour les urgences, appelez-nous au",
+    "meta": {
+      "title": "Contact | REO Electric",
+      "description": "Contactez REO Electric pour un devis gratuit ou pour les urgences. Disponible 24/7 à Agadir et au Maroc."
+    }
+  }
+}
