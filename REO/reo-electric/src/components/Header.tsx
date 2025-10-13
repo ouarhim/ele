@@ -73,6 +73,43 @@ const Header: React.FC<HeaderProps> = ({ locale }) => {
                   {t('about')}
                 </Link>
               </li>
+              <li className="nav-item dropdown">
+                <Link 
+                  className="nav-link dropdown-toggle" 
+                  href="#" 
+                  role="button" 
+                  data-bs-toggle="dropdown" 
+                  aria-expanded="false"
+                >
+                  {t('services')}
+                </Link>
+                <ul className="dropdown-menu">
+                  <li>
+                    <Link 
+                      className="dropdown-item" 
+                      href={`/${currentLocale}/services/bobinage`}
+                    >
+                      Bobinage Moteurs
+                    </Link>
+                  </li>
+                  <li>
+                    <Link 
+                      className="dropdown-item" 
+                      href={`/${currentLocale}/services/armoires-hotels`}
+                    >
+                      Armoires Hôtels
+                    </Link>
+                  </li>
+                  <li>
+                    <Link 
+                      className="dropdown-item" 
+                      href={`/${currentLocale}/services/installations-immeubles`}
+                    >
+                      Installations Immeubles
+                    </Link>
+                  </li>
+                </ul>
+              </li>
               <li className="nav-item">
                 <Link 
                   className="nav-link" 

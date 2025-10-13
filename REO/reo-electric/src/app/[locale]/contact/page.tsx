@@ -33,13 +33,12 @@ export default function ContactPage({ params }: { params: Promise<{ locale: stri
 
   // Service options
   const serviceOptions = [
-    { value: 'residential', label: t('Common.services.residential') },
-    { value: 'commercial', label: t('Common.services.commercial') },
-    { value: 'emergency', label: t('Common.services.emergency') },
-    { value: 'installation', label: t('Common.services.installation') },
-    { value: 'maintenance', label: t('Common.services.maintenance') },
-    { value: 'repair', label: t('Common.services.repair') },
-    { value: 'other', label: t('Common.services.other') }
+    { value: 'bobinage', label: tCommon('services.bobinage') },
+    { value: 'armoires', label: tCommon('services.armoires') },
+    { value: 'installations', label: tCommon('services.installations') },
+    { value: 'maintenance', label: tCommon('services.maintenance') },
+    { value: 'urgence', label: tCommon('services.urgence') },
+    { value: 'devis', label: tCommon('services.devis') }
   ];
 
   return (

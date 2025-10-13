@@ -9,71 +9,72 @@
     "faq": "FAQ"
   },
   "Hero": {
-    "title": "Alimentez votre avenir avec de l'énergie propre",
-    "description": "Fournir des solutions électriques durables et fiables pour les particuliers et les entreprises de la région.",
-    "cta": "En savoir plus",
-    "contact": "Contactez-nous"
+    "title": "Électricien Expert à Agadir - 20+ Ans d'Expérience",
+    "description": "REO accompagne hôtels et immeubles en bobinage, armoires et installations, avec diagnostics précis, délais tenus et garanties claires au Maroc.",
+    "cta": "Demandez un devis gratuit",
+    "contact": "Urgence 24/7"
   },
   "Services": {
-    "title": "Nos Services",
-    "subtitle": "Nous offrons une gamme complète de services électriques conçus pour répondre à vos besoins",
-    "residential": {
-      "title": "Services résidentiels",
-      "description": "Solutions électriques complètes pour votre maison, y compris les installations, réparations et mises à niveau."
+    "title": "Nos Services Spécialisés",
+    "subtitle": "Solutions électriques pour hôtels, immeubles et moteurs au Maroc",
+    "bobinage": {
+      "title": "Bobinage Moteurs",
+      "description": "Diagnostic, rebobinage cuivre, tests d'isolement et vibrations. Garantie atelier avec rapports de traçabilité."
     },
-    "commercial": {
-      "title": "Services commerciaux",
-      "description": "Services électriques professionnels pour les entreprises de toutes tailles avec un minimum de perturbations."
+    "armoires": {
+      "title": "Armoires Hôtels",
+      "description": "Conception, modernisation, mise aux normes TGBT et tableaux. Sélectivité et continuité de service."
     },
-    "emergency": {
-      "title": "Assistance d'urgence",
-      "description": "Services électriques d'urgence 24h/24 et 7j/7 pour maintenir votre maison ou entreprise en sécurité."
+    "installations": {
+      "title": "Installations Immeubles",
+      "description": "Distribution, protections, mise à la terre. Études de charge et dossier de conformité complet."
     }
   },
   "WhyChoose": {
-    "title": "Pourquoi choisir REO Electric ?",
-    "subtitle": "Notre engagement envers l'excellence nous distingue de la concurrence",
-    "certified": {
-      "title": "Électriciens certifiés",
-      "description": "Tous nos électriciens sont agréés, assurés et formés en continu aux dernières technologies."
-    },
-    "quality": {
-      "title": "Garantie de qualité",
-      "description": "Nous garantissons notre travail avec des garanties et des assurances de premier plan dans l'industrie."
-    },
+    "title": "Pourquoi choisir REO ?",
+    "subtitle": "20+ ans d'expertise au service des hôtels et immeubles au Maroc",
     "experience": {
       "title": "20+ ans d'expérience",
-      "description": "Deux décennies d'expérience au service de clients résidentiels et commerciaux."
+      "description": "Expertise reconnue en bobinage, armoires hôtels et installations d'immeubles au Maroc."
+    },
+    "safety": {
+      "title": "Sécurité & Conformité",
+      "description": "Assurance décennale, licence professionnelle, procédures documentées et respect des normes marocaines."
+    },
+    "proximity": {
+      "title": "Service de Proximité",
+      "description": "Interlocuteur dédié, suivi de chantier, astreinte 24/7 et interventions d'urgence."
     }
   },
   "Testimonials": {
-    "title": "Ce que disent nos clients",
-    "testimonial1": "REO Electric a transformé notre bureau avec une mise à niveau électrique complète. Professionnel, efficace et propre !",
-    "author1": "Sarah Johnson, Gestionnaire de bureau",
-    "testimonial2": "Quand notre maison a perdu le courant pendant une tempête, leur service d'urgence 24/7 a sauvé la journée. Hautement recommandé !",
-    "author2": "Michael Torres, Propriétaire"
+    "title": "Témoignages Clients",
+    "testimonial1": "Service réactif, zéro incident depuis la rénovation de notre TGBT. Délais tenus, équipe professionnelle.",
+    "author1": "Directeur Hôtel, Agadir",
+    "testimonial2": "Rebobinage moteur en 72h, performance au rendez-vous. Équipe pédagogue et efficace.",
+    "author2": "Responsable Maintenance, Inezgane"
   },
   "Contact": {
-    "title": "Contactez-nous",
-    "subtitle": "Vous avez des questions sur nos services ou besoin d'aide ? Contactez notre équipe et nous vous répondrons dès que possible.",
+    "title": "Contactez REO",
+    "subtitle": "Devis gratuit • Urgence 24/7 • WhatsApp +212 667924515 • Zone Agadir",
     "name": "Nom",
     "email": "Email",
-    "phone": "Numéro de téléphone",
+    "phone": "Téléphone",
     "service": "Type de service",
     "message": "Message",
-    "send": "Envoyer le message",
+    "send": "Envoyer",
     "address": "Adresse",
-    "workingHours": "Heures de travail",
-    "emergency": "Services d'urgence",
+    "workingHours": "Heures d'ouverture",
+    "emergency": "Urgences 24/7",
+    "emergencyHelp": "Pour les urgences, appelez-nous au",
     "required": "Requis"
   },
   "Footer": {
-    "copyright": "© {year} REO Electric Company. Tous droits réservés.",
+    "copyright": "© {year} REO Electric. Tous droits réservés.",
     "rights": "Tous droits réservés."
   },
   "Blog": {
-    "title": "Dernières nouvelles et idées",
-    "subtitle": "Restez informé des dernières tendances, conseils et nouvelles de l'industrie électrique",
+    "title": "Conseils & Actualités Électriques",
+    "subtitle": "Expertise et conseils pour vos installations électriques au Maroc",
     "readMore": "Lire la suite",
     "previous": "Précédent",
     "next": "Suivant",
@@ -82,35 +83,35 @@
     "relatedPosts": "Articles similaires",
     "by": "Par",
     "posts": {
-      "renewableEnergy": {
-        "title": "L'avenir de l'énergie renouvelable",
-        "excerpt": "Explorer les dernières tendances dans les technologies d'énergie renouvelable et leur impact sur l'industrie."
+      "motorWinding": {
+        "title": "Guide Complet du Bobinage de Moteurs",
+        "excerpt": "Découvrez quand et comment rebobiner un moteur électrique. Guide professionnel avec processus détaillé."
+      },
+      "hotelElectrical": {
+        "title": "Sécurité Électrique dans les Hôtels",
+        "excerpt": "5 points essentiels pour assurer la sécurité électrique dans votre établissement hôtelier."
+      },
+      "buildingInstallation": {
+        "title": "Installation Électrique d'Immeuble : Guide Complet",
+        "excerpt": "Tout ce qu'il faut savoir sur l'installation électrique d'un immeuble au Maroc."
+      },
+      "electricalMaintenance": {
+        "title": "Maintenance Préventive des Installations",
+        "excerpt": "Comment entretenir votre installation électrique pour éviter les pannes coûteuses."
       },
       "energyEfficiency": {
-        "title": "Conseils d'efficacité énergétique pour votre maison",
-        "excerpt": "Moyens simples et efficaces de réduire votre consommation d'énergie et de diminuer vos factures d'électricité."
+        "title": "Économies d'Énergie : 10 Conseils d'Électricien",
+        "excerpt": "Conseils professionnels pour réduire votre consommation électrique et vos factures."
       },
-      "smartGrid": {
-        "title": "Comprendre la technologie des réseaux intelligents",
-        "excerpt": "Comment les réseaux intelligents révolutionnent la manière dont nous générons, distribuons et consommons l'électricité."
-      },
-      "electricalSafety": {
-        "title": "Sécurité électrique : Guide pour les propriétaires",
-        "excerpt": "Conseils essentiels pour assurer la sécurité électrique dans votre maison."
-      },
-      "solarPanels": {
-        "title": "Avantages des panneaux solaires résidentiels",
-        "excerpt": "Découvrez pourquoi de plus en plus de propriétaires adoptent l'énergie solaire."
-      },
-      "ledLighting": {
-        "title": "Tendances de l'éclairage LED pour 2023",
-        "excerpt": "Les dernières innovations en matière d'éclairage LED et leurs applications."
+      "electricalStandards": {
+        "title": "Normes Électriques au Maroc : Ce qu'il faut savoir",
+        "excerpt": "Comprendre les normes électriques marocaines pour vos projets."
       }
     }
   },
   "HomePage": {
     "Hero": {
-      "title": "Électricien certifié à Agadir – 20+ ans d'expertise",
+      "title": "Électricien certifié à Agadir  20+ ans d'expertise",
       "description": "REO accompagne hôtels et immeubles en bobinage, armoires et installations, avec diagnostics précis, délais tenus et garanties claires au Maroc.",
       "cta": "Demandez un devis gratuit",
       "contact": "Urgence 24/7",
@@ -952,12 +953,12 @@
       "urgence": "Urgence 24/7",
       "devis": "Devis Gratuit"
     },
-    "workingHours": "Lun-Sam [HEURES] • Urgence 24/7",
-    "address": "[ADRESSE], [VILLE]",
-    "phone": "[NUM_TEL]",
-    "email": "[EMAIL]",
+    "workingHours": "Lun-Sam 8h-18h • Urgence 24/7",
+    "address": "Agadir, Maroc",
+    "phone": "+212 667924515",
+    "email": "contact@reo.ma",
     "whatsapp": "+212 667924515",
-    "zone": "Zone de service : [REGION]"
+    "zone": "Zone de service : Agadir et région"
   },
   "Contact": {
     "title": "Contactez-nous",

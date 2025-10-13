@@ -1,56 +1,37 @@
 import React from 'react';
 import { getTranslations } from 'next-intl/server';
+import { useTranslations } from 'next-intl';
 
 export default async function BobinagePage({ params }: { params: Promise<{ locale: string }> }) {
   const { locale } = await params;
-  const t = await getTranslations('Bobinage');
-
+  const t = await getTranslations({ locale, namespace: 'Bobinage' });
+  const tCommon = await getTranslations({ locale, namespace: 'Common' });
+  
   return (
-    <div className="container mx-auto px-4 py-12">
+    <main className="container mx-auto px-4 py-12" suppressHydrationWarning>
       {/* Hero Section */}
-      <section className="mb-16">
-        <div className="text-center mb-12">
-          <h1 className="text-4xl md:text-5xl font-bold mb-6 text-primary">
-            {t('Hero.title')}
-          </h1>
-          <p className="text-lg text-gray-700 max-w-3xl mx-auto">
-            {t('Hero.description')}
-          </p>
-        </div>
-      </section>
-
-      {/* Process Section */}
       <section className="mb-16">
         <div className="row align-items-center">
           <div className="col-lg-6 mb-8 mb-lg-0">
-            <h2 className="text-3xl font-bold mb-6">{t('Process.title')}</h2>
-            <div className="space-y-4">
-              <ProcessStep 
-                step="1"
-                title={t('Process.diagnostic.title')}
-                description={t('Process.diagnostic.description')}
-              />
-              <ProcessStep 
-                step="2"
-                title={t('Process.demontage.title')}
-                description={t('Process.demontage.description')}
-              />
-              <ProcessStep 
-                step="3"
-                title={t('Process.rebobinage.title')}
-                description={t('Process.rebobinage.description')}
-              />
-              <ProcessStep 
-                step="4"
-                title={t('Process.tests.title')}
-                description={t('Process.tests.description')}
-              />
+            <h1 className="text-4xl md:text-5xl font-bold mb-6 text-primary">
+              {t('Hero.title')}
+            </h1>
+            <p className="text-lg mb-8 text-gray-700">
+              {t('Hero.description')}
+            </p>
+            <div className="d-flex gap-3">
+              <a href={`/${locale}/contact`} className="btn btn-primary btn-lg px-6">
+                {t('CTA.devis')}
+              </a>
+              <a href={`tel:${tCommon('phone')}`} className="btn btn-outline-primary btn-lg px-6">
+                {t('CTA.call')}
+              </a>
             </div>
           </div>
           <div className="col-lg-6">
             <div className="rounded-lg overflow-hidden shadow-xl">
               <img 
-                src="https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=800&q=80" 
+                src="https://images.unsplash.com/photo-1581094794329-c8112a89af12?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" 
                 alt={t('Process.imageAlt')}
                 className="w-100 h-auto"
               />
@@ -59,11 +40,41 @@ export default async function BobinagePage({ params }: { params: Promise<{ local
         </div>
       </section>
 
+      {/* Process Section */}
+      <section className="mb-16">
+        <div className="text-center mb-12">
+          <h2 className="section-title">{t('Process.title')}</h2>
+        </div>
+        
+        <div className="row">
+          <ProcessStep 
+            title={t('Process.diagnostic.title')} 
+            description={t('Process.diagnostic.description')} 
+            step="1"
+          />
+          <ProcessStep 
+            title={t('Process.demontage.title')} 
+            description={t('Process.demontage.description')} 
+            step="2"
+          />
+          <ProcessStep 
+            title={t('Process.rebobinage.title')} 
+            description={t('Process.rebobinage.description')} 
+            step="3"
+          />
+          <ProcessStep 
+            title={t('Process.tests.title')} 
+            description={t('Process.tests.description')} 
+            step="4"
+          />
+        </div>
+      </section>
+
       {/* Benefits Section */}
       <section className="mb-16 bg-light py-12 rounded-lg">
         <div className="text-center mb-12">
-          <h2 className="text-3xl font-bold mb-4">{t('Benefits.title')}</h2>
-          <p className="text-lg text-gray-700">
+          <h2 className="section-title">{t('Benefits.title')}</h2>
+          <p className="section-subtitle">
             {t('Benefits.subtitle')}
           </p>
         </div>
@@ -72,7 +83,7 @@ export default async function BobinagePage({ params }: { params: Promise<{ local
           <BenefitCard 
             title={t('Benefits.longevity.title')} 
             description={t('Benefits.longevity.description')} 
-            icon="bi-clock"
+            icon="bi-clock-history"
           />
           <BenefitCard 
             title={t('Benefits.efficiency.title')} 
@@ -95,29 +106,29 @@ export default async function BobinagePage({ params }: { params: Promise<{ local
       {/* Pricing Section */}
       <section className="mb-16">
         <div className="text-center mb-12">
-          <h2 className="text-3xl font-bold mb-4">{t('Pricing.title')}</h2>
-          <p className="text-lg text-gray-700">
+          <h2 className="section-title">{t('Pricing.title')}</h2>
+          <p className="section-subtitle">
             {t('Pricing.subtitle')}
           </p>
         </div>
         
         <div className="row">
           <PricingCard 
-            title={t('Pricing.small.title')}
-            description={t('Pricing.small.description')}
-            price={t('Pricing.small.price')}
+            title={t('Pricing.small.title')} 
+            description={t('Pricing.small.description')} 
+            price={t('Pricing.small.price')} 
             duration={t('Pricing.small.duration')}
           />
           <PricingCard 
-            title={t('Pricing.industrial.title')}
-            description={t('Pricing.industrial.description')}
-            price={t('Pricing.industrial.price')}
+            title={t('Pricing.industrial.title')} 
+            description={t('Pricing.industrial.description')} 
+            price={t('Pricing.industrial.price')} 
             duration={t('Pricing.industrial.duration')}
           />
           <PricingCard 
-            title={t('Pricing.emergency.title')}
-            description={t('Pricing.emergency.description')}
-            price={t('Pricing.emergency.price')}
+            title={t('Pricing.emergency.title')} 
+            description={t('Pricing.emergency.description')} 
+            price={t('Pricing.emergency.price')} 
             duration={t('Pricing.emergency.duration')}
           />
         </div>
@@ -125,33 +136,47 @@ export default async function BobinagePage({ params }: { params: Promise<{ local
 
       {/* Preparation Section */}
       <section className="mb-16">
+        <div className="text-center mb-12">
+          <h2 className="section-title">{t('Preparation.title')}</h2>
+        </div>
+        
         <div className="row">
-          <div className="col-lg-6 mb-8 mb-lg-0">
-            <h2 className="text-3xl font-bold mb-6">{t('Preparation.title')}</h2>
-            <div className="space-y-4">
-              <PreparationItem 
-                title={t('Preparation.plaque.title')}
-                description={t('Preparation.plaque.description')}
-              />
-              <PreparationItem 
-                title={t('Preparation.photos.title')}
-                description={t('Preparation.photos.description')}
-              />
-              <PreparationItem 
-                title={t('Preparation.environment.title')}
-                description={t('Preparation.environment.description')}
-              />
-            </div>
+          <PreparationCard 
+            title={t('Preparation.plaque.title')} 
+            description={t('Preparation.plaque.description')} 
+            icon="bi-tag"
+          />
+          <PreparationCard 
+            title={t('Preparation.photos.title')} 
+            description={t('Preparation.photos.description')} 
+            icon="bi-camera"
+          />
+          <PreparationCard 
+            title={t('Preparation.environment.title')} 
+            description={t('Preparation.environment.description')} 
+            icon="bi-gear"
+          />
+        </div>
+      </section>
+
+      {/* Safety Section */}
+      <section className="mb-16 bg-primary text-white py-12 rounded-lg">
+        <div className="text-center mb-8">
+          <h2 className="text-3xl font-bold mb-4">{t('Safety.title')}</h2>
+        </div>
+        
+        <div className="row text-center">
+          <div className="col-md-4 mb-4">
+            <i className="bi bi-shield-check fs-1 mb-3"></i>
+            <p className="text-lg">{t('Safety.controls')}</p>
           </div>
-          <div className="col-lg-6">
-            <div className="bg-primary text-white p-6 rounded-lg">
-              <h3 className="text-xl font-bold mb-4">{t('Safety.title')}</h3>
-              <ul className="space-y-2">
-                <li>{t('Safety.controls')}</li>
-                <li>{t('Safety.guarantee')}</li>
-                <li>{t('Safety.documentation')}</li>
-              </ul>
-            </div>
+          <div className="col-md-4 mb-4">
+            <i className="bi bi-award fs-1 mb-3"></i>
+            <p className="text-lg">{t('Safety.guarantee')}</p>
+          </div>
+          <div className="col-md-4 mb-4">
+            <i className="bi bi-file-text fs-1 mb-3"></i>
+            <p className="text-lg">{t('Safety.documentation')}</p>
           </div>
         </div>
       </section>
@@ -159,56 +184,58 @@ export default async function BobinagePage({ params }: { params: Promise<{ local
       {/* FAQ Section */}
       <section className="mb-16">
         <div className="text-center mb-12">
-          <h2 className="text-3xl font-bold mb-4">{t('FAQ.title')}</h2>
+          <h2 className="section-title">{t('FAQ.title')}</h2>
         </div>
         
         <div className="row">
           <div className="col-lg-8 mx-auto">
             <FAQItem 
-              question={t('FAQ.q1.question')}
-              answer={t('FAQ.q1.answer')}
+              question={t('FAQ.q1.question')} 
+              answer={t('FAQ.q1.answer')} 
             />
             <FAQItem 
-              question={t('FAQ.q2.question')}
-              answer={t('FAQ.q2.answer')}
+              question={t('FAQ.q2.question')} 
+              answer={t('FAQ.q2.answer')} 
             />
             <FAQItem 
-              question={t('FAQ.q3.question')}
-              answer={t('FAQ.q3.answer')}
+              question={t('FAQ.q3.question')} 
+              answer={t('FAQ.q3.answer')} 
             />
           </div>
         </div>
       </section>
 
       {/* CTA Section */}
-      <section className="text-center py-12 bg-primary text-white rounded-lg">
+      <section className="text-center py-12 bg-light rounded-lg">
         <h2 className="text-3xl font-bold mb-4">{t('CTA.title')}</h2>
         <p className="text-xl mb-6 max-w-2xl mx-auto">
           {t('CTA.subtitle')}
         </p>
         <div className="d-flex gap-3 justify-content-center">
-          <a href={`/${locale}/contact`} className="btn btn-light btn-lg px-6">
+          <a href={`/${locale}/contact`} className="btn btn-primary btn-lg px-6">
             {t('CTA.devis')}
           </a>
-          <a href={`tel:${t('Common.phone')}`} className="btn btn-outline-light btn-lg px-6">
+          <a href={`tel:${tCommon('phone')}`} className="btn btn-outline-primary btn-lg px-6">
             {t('CTA.call')}
           </a>
         </div>
       </section>
-    </div>
+    </main>
   );
 }
 
 // Process Step Component
-function ProcessStep({ step, title, description }: { step: string; title: string; description: string }) {
+function ProcessStep({ title, description, step }: { title: string; description: string; step: string }) {
   return (
-    <div className="d-flex align-items-start mb-4">
-      <div className="bg-primary text-white rounded-circle d-flex align-items-center justify-content-center me-3" style={{ width: '40px', height: '40px' }}>
-        {step}
-      </div>
-      <div>
-        <h3 className="text-lg font-bold mb-2">{title}</h3>
-        <p className="text-gray-600">{description}</p>
+    <div className="col-md-6 col-lg-3 mb-6">
+      <div className="text-center">
+        <div className="bg-primary text-white rounded-circle mx-auto mb-4 d-flex align-items-center justify-content-center" style={{ width: '60px', height: '60px' }}>
+          <span className="fs-4 font-bold">{step}</span>
+        </div>
+        <h3 className="font-bold text-lg mb-3">{title}</h3>
+        <p className="text-gray-600">
+          {description}
+        </p>
       </div>
     </div>
   );
@@ -219,11 +246,13 @@ function BenefitCard({ title, description, icon }: { title: string; description:
   return (
     <div className="col-md-6 col-lg-3 mb-6">
       <div className="text-center">
-        <div className="bg-primary text-white rounded-circle mx-auto mb-4 d-flex align-items-center justify-content-center" style={{ width: '80px', height: '80px' }}>
-          <i className={`bi ${icon} fs-3`}></i>
+        <div className="text-primary mb-4">
+          <i className={`bi ${icon} fs-1`}></i>
         </div>
-        <h3 className="text-xl font-bold mb-3">{title}</h3>
-        <p className="text-gray-600">{description}</p>
+        <h3 className="font-bold text-lg mb-3">{title}</h3>
+        <p className="text-gray-600">
+          {description}
+        </p>
       </div>
     </div>
   );
@@ -235,26 +264,32 @@ function PricingCard({ title, description, price, duration }: { title: string; d
     <div className="col-md-4 mb-6">
       <div className="card h-100 shadow-sm">
         <div className="card-body text-center">
-          <h3 className="text-xl font-bold mb-3">{title}</h3>
-          <p className="text-gray-600 mb-4">{description}</p>
-          <div className="text-primary font-bold text-2xl mb-2">{price}</div>
-          <div className="text-muted">{duration}</div>
+          <h3 className="card-title text-xl font-bold mb-3">{title}</h3>
+          <p className="card-text text-gray-600 mb-4">{description}</p>
+          <div className="mb-4">
+            <span className="text-3xl font-bold text-primary">{price}</span>
+          </div>
+          <p className="text-sm text-gray-500">{duration}</p>
         </div>
       </div>
     </div>
   );
 }
 
-// Preparation Item Component
-function PreparationItem({ title, description }: { title: string; description: string }) {
+// Preparation Card Component
+function PreparationCard({ title, description, icon }: { title: string; description: string; icon: string }) {
   return (
-    <div className="d-flex align-items-start mb-4">
-      <div className="bg-primary text-white rounded-circle d-flex align-items-center justify-content-center me-3" style={{ width: '24px', height: '24px' }}>
-        <i className="bi bi-check"></i>
-      </div>
-      <div>
-        <h4 className="font-bold mb-1">{title}</h4>
-        <p className="text-gray-600">{description}</p>
+    <div className="col-md-4 mb-6">
+      <div className="card h-100 shadow-sm">
+        <div className="card-body text-center">
+          <div className="text-primary mb-4">
+            <i className={`bi ${icon} fs-1`}></i>
+          </div>
+          <h3 className="card-title text-xl font-bold mb-3">{title}</h3>
+          <p className="card-text text-gray-600">
+            {description}
+          </p>
+        </div>
       </div>
     </div>
   );
@@ -264,8 +299,12 @@ function PreparationItem({ title, description }: { title: string; description: s
 function FAQItem({ question, answer }: { question: string; answer: string }) {
   return (
     <div className="mb-6">
-      <h3 className="text-lg font-bold mb-2">{question}</h3>
-      <p className="text-gray-600">{answer}</p>
+      <div className="card">
+        <div className="card-body">
+          <h4 className="font-bold text-lg mb-3">{question}</h4>
+          <p className="text-gray-600">{answer}</p>
+        </div>
+      </div>
     </div>
   );
 }

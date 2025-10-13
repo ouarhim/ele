@@ -9,71 +9,72 @@
     "faq": "FAQ"
   },
   "Hero": {
-    "title": "Powering Your Future with Clean Energy",
-    "description": "Providing sustainable and reliable electricity solutions for homes and businesses across the region.",
-    "cta": "Learn More",
-    "contact": "Contact Us"
+    "title": "Expert Electrician in Agadir - 20+ Years Experience",
+    "description": "REO supports hotels and buildings with motor winding, electrical panels, and installations, with precise diagnostics, guaranteed deadlines, and clear warranties in Morocco.",
+    "cta": "Request Free Quote",
+    "contact": "24/7 Emergency"
   },
   "Services": {
-    "title": "Our Services",
-    "subtitle": "We offer a comprehensive range of electrical services designed to meet your needs",
-    "residential": {
-      "title": "Residential Services",
-      "description": "Complete electrical solutions for your home including installations, repairs, and upgrades."
+    "title": "Our Specialized Services",
+    "subtitle": "Electrical solutions for hotels, buildings, and motors in Morocco",
+    "bobinage": {
+      "title": "Motor Winding",
+      "description": "Diagnosis, copper rewinding, insulation tests, and vibrations. Workshop guarantee with traceability reports."
     },
-    "commercial": {
-      "title": "Commercial Services",
-      "description": "Professional electrical services for businesses of all sizes with minimal disruption."
+    "armoires": {
+      "title": "Hotel Panels",
+      "description": "Design, modernization, standards compliance for TGBT and panels. Selectivity and service continuity."
     },
-    "emergency": {
-      "title": "Emergency Support",
-      "description": "24/7 emergency electrical services to keep your home or business powered safely."
+    "installations": {
+      "title": "Building Installations",
+      "description": "Distribution, protections, grounding. Load studies and complete compliance documentation."
     }
   },
   "WhyChoose": {
-    "title": "Why Choose REO Electric?",
-    "subtitle": "Our commitment to excellence sets us apart from the competition",
-    "certified": {
-      "title": "Certified Electricians",
-      "description": "All our electricians are licensed, insured, and continuously trained in the latest technologies."
-    },
-    "quality": {
-      "title": "Quality Guarantee",
-      "description": "We stand behind our work with industry-leading warranties and guarantees."
-    },
+    "title": "Why Choose REO?",
+    "subtitle": "20+ years of expertise serving hotels and buildings in Morocco",
     "experience": {
       "title": "20+ Years Experience",
-      "description": "Two decades of experience serving residential and commercial clients."
+      "description": "Recognized expertise in motor winding, hotel panels, and building installations in Morocco."
+    },
+    "safety": {
+      "title": "Safety & Compliance",
+      "description": "Decennial insurance, professional license, documented procedures, and compliance with Moroccan standards."
+    },
+    "proximity": {
+      "title": "Proximity Service",
+      "description": "Dedicated contact, project follow-up, 24/7 on-call and emergency interventions."
     }
   },
   "Testimonials": {
-    "title": "What Our Clients Say",
-    "testimonial1": "REO Electric transformed our office with a complete electrical upgrade. Professional, efficient, and clean!",
-    "author1": "Sarah Johnson, Office Manager",
-    "testimonial2": "When our home lost power during a storm, their 24/7 emergency service saved the day. Highly recommended!",
-    "author2": "Michael Torres, Homeowner"
+    "title": "Client Testimonials",
+    "testimonial1": "Reactive service, zero incidents since our TGBT renovation. Deadlines met, professional team.",
+    "author1": "Hotel Director, Agadir",
+    "testimonial2": "Motor rewinding in 72h, performance delivered. Pedagogical and efficient team.",
+    "author2": "Maintenance Manager, Inezgane"
   },
   "Contact": {
-    "title": "Get In Touch",
-    "subtitle": "Have questions about our services or need assistance? Reach out to our team and we'll get back to you as soon as possible.",
+    "title": "Contact REO",
+    "subtitle": "Free Quote • 24/7 Emergency • WhatsApp +212 667924515 • Agadir Zone",
     "name": "Name",
     "email": "Email",
-    "phone": "Phone Number",
+    "phone": "Phone",
     "service": "Service Type",
     "message": "Message",
-    "send": "Send Message",
+    "send": "Send",
     "address": "Address",
     "workingHours": "Working Hours",
-    "emergency": "Emergency Services",
+    "emergency": "24/7 Emergency",
+    "emergencyHelp": "For emergencies, call us at",
     "required": "Required"
   },
   "Footer": {
-    "copyright": "© {year} REO Electric Company. All rights reserved.",
+    "copyright": "© {year} REO Electric. All rights reserved.",
     "rights": "All rights reserved."
   },
   "Blog": {
-    "title": "Latest News & Insights",
-    "subtitle": "Stay updated with the latest trends, tips, and news in the electrical industry",
+    "title": "Electrical Tips & News",
+    "subtitle": "Expertise and advice for your electrical installations in Morocco",
     "readMore": "Read More",
     "previous": "Previous",
     "next": "Next",
@@ -82,35 +83,35 @@
     "relatedPosts": "Related Posts",
     "by": "By",
     "posts": {
-      "renewableEnergy": {
-        "title": "The Future of Renewable Energy",
-        "excerpt": "Exploring the latest trends in renewable energy technologies and their impact on the industry."
+      "motorWinding": {
+        "title": "Complete Guide to Motor Winding",
+        "excerpt": "Discover when and how to rewind an electric motor. Professional guide with detailed process."
+      },
+      "hotelElectrical": {
+        "title": "Electrical Safety in Hotels",
+        "excerpt": "5 essential points to ensure electrical safety in your hotel establishment."
+      },
+      "buildingInstallation": {
+        "title": "Building Electrical Installation: Complete Guide",
+        "excerpt": "Everything you need to know about electrical installation of a building in Morocco."
+      },
+      "electricalMaintenance": {
+        "title": "Preventive Maintenance of Installations",
+        "excerpt": "How to maintain your electrical installation to avoid costly breakdowns."
       },
       "energyEfficiency": {
-        "title": "Energy Efficiency Tips for Your Home",
-        "excerpt": "Simple and effective ways to reduce your energy consumption and lower your electricity bills."
+        "title": "Energy Savings: 10 Electrician Tips",
+        "excerpt": "Professional tips to reduce your electrical consumption and bills."
       },
-      "smartGrid": {
-        "title": "Understanding Smart Grid Technology",
-        "excerpt": "How smart grids are revolutionizing the way we generate, distribute, and consume electricity."
-      },
-      "electricalSafety": {
-        "title": "Electrical Safety: A Homeowner's Guide",
-        "excerpt": "Essential tips to ensure electrical safety in your home."
-      },
-      "solarPanels": {
-        "title": "Benefits of Residential Solar Panels",
-        "excerpt": "Discover why more and more homeowners are adopting solar energy."
-      },
-      "ledLighting": {
-        "title": "LED Lighting Trends for 2023",
-        "excerpt": "The latest innovations in LED lighting and their applications."
+      "electricalStandards": {
+        "title": "Electrical Standards in Morocco: What you need to know",
+        "excerpt": "Understanding Moroccan electrical standards for your projects."
       }
     }
   },
   "HomePage": {
     "Hero": {
-      "title": "Certified Electrician in Agadir – 20+ Years Expertise",
+      "title": "Certified Electrician in Agadir  20+ Years Expertise",
       "description": "REO supports hotels and buildings with motor winding, electrical panels, and installations, with precise diagnostics, guaranteed deadlines, and clear warranties in Morocco.",
       "cta": "Request Free Quote",
       "contact": "24/7 Emergency",
@@ -575,21 +576,19 @@
   "Common": {
     "select": "Select",
     "services": {
-      "residential": "Residential Services",
-      "commercial": "Commercial Services",
-      "emergency": "Emergency Services",
-      "installation": "Installation",
+      "bobinage": "Motor Winding",
+      "armoires": "Hotel Panels",
+      "installations": "Building Installations",
       "maintenance": "Maintenance",
-      "repair": "Repair",
-      "other": "Other"
+      "urgence": "24/7 Emergency",
+      "devis": "Free Quote"
     },
-    "workingHours": "Monday - Friday: 8:00 AM - 6:00 PM\nSaturday: 9:00 AM - 4:00 PM\nSunday: Emergency only",
-    "address": "[ADDRESS], Agadir",
+    "workingHours": "Mon-Sat 8h-18h • 24/7 Emergency",
+    "address": "Agadir, Morocco",
     "phone": "+212 667924515",
-    "email": "[EMAIL]",
-    "emergencyPhone": "[EMERGENCY_PHONE]",
+    "email": "contact@reo.ma",
     "whatsapp": "+212 667924515",
-    "zone": "[REGION]"
+    "zone": "Service area: Agadir and region"
   },
   "Contact": {
     "title": "Contact Us",

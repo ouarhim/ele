@@ -9,45 +9,45 @@ export default async function BlogPage({ params }: { params: Promise<{ locale: s
   const posts = [
     {
       id: 1,
-      title: t('posts.renewableEnergy.title'),
-      excerpt: t('posts.renewableEnergy.excerpt'),
-      date: "2023-06-15",
-      slug: "future-of-renewable-energy"
+      title: t('posts.motorWinding.title'),
+      excerpt: t('posts.motorWinding.excerpt'),
+      date: "2024-01-15",
+      slug: "guide-bobinage-moteurs"
     },
     {
       id: 2,
-      title: t('posts.energyEfficiency.title'),
-      excerpt: t('posts.energyEfficiency.excerpt'),
-      date: "2023-05-22",
-      slug: "energy-efficiency-tips"
+      title: t('posts.hotelElectrical.title'),
+      excerpt: t('posts.hotelElectrical.excerpt'),
+      date: "2024-01-10",
+      slug: "securite-electrique-hotels"
     },
     {
       id: 3,
-      title: t('posts.smartGrid.title'),
-      excerpt: t('posts.smartGrid.excerpt'),
-      date: "2023-04-10",
-      slug: "smart-grid-technology"
+      title: t('posts.buildingInstallation.title'),
+      excerpt: t('posts.buildingInstallation.excerpt'),
+      date: "2024-01-05",
+      slug: "installation-electrique-immeuble"
     },
     {
       id: 4,
-      title: t('posts.electricalSafety.title'),
-      excerpt: t('posts.electricalSafety.excerpt'),
-      date: "2023-03-18",
-      slug: "electrical-safety-guide"
+      title: t('posts.electricalMaintenance.title'),
+      excerpt: t('posts.electricalMaintenance.excerpt'),
+      date: "2023-12-20",
+      slug: "maintenance-preventive"
     },
     {
       id: 5,
-      title: t('posts.solarPanels.title'),
-      excerpt: t('posts.solarPanels.excerpt'),
-      date: "2023-02-05",
-      slug: "residential-solar-benefits"
+      title: t('posts.energyEfficiency.title'),
+      excerpt: t('posts.energyEfficiency.excerpt'),
+      date: "2023-12-15",
+      slug: "economies-energie"
     },
     {
       id: 6,
-      title: t('posts.ledLighting.title'),
-      excerpt: t('posts.ledLighting.excerpt'),
-      date: "2023-01-12",
-      slug: "led-lighting-trends"
+      title: t('posts.electricalStandards.title'),
+      excerpt: t('posts.electricalStandards.excerpt'),
+      date: "2023-12-10",
+      slug: "normes-electriques-maroc"
     }
   ];
 
