@@ -409,3 +409,33 @@ img {
     box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
   }
 }
+
+/* Mobile Button Fixes */
+@media (max-width: 575.98px) {
+  .btn-lg {
+    font-size: 1rem !important;
+    padding: 0.75rem 1rem !important;
+    min-height: 48px;
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+    text-align: center !important;
+    white-space: normal !important;
+    word-wrap: break-word !important;
+  }
+  
+  .btn span {
+    display: block !important;
+    line-height: 1.2 !important;
+  }
+  
+  .btn .d-block.d-sm-none {
+    font-size: 0.9rem;
+    font-weight: 600;
+  }
+  
+  .btn .d-block.d-sm-none + .d-block.d-sm-none {
+    font-size: 0.8rem;
+    margin-top: 2px;
+  }
+}

@@ -72,12 +72,16 @@ export default function HomePageClient({ locale }: HomePageClientProps) {
             <p className="text-lg mb-8 text-gray-700">
               {t('Hero.description')}
             </p>
-            <div className="d-flex gap-3">
-              <button className="btn btn-primary btn-lg px-6">
-                {t('Hero.cta')}
+            <div className="d-flex flex-column flex-sm-row gap-3">
+              <button className="btn btn-primary btn-lg px-4 px-sm-6 py-3 text-center">
+                <span className="d-block d-sm-inline">{t('Hero.cta')}</span>
               </button>
-              <a href={`/${locale}/contact`} className="btn btn-outline-primary btn-lg px-6">
-                {t('Hero.contact')}
+              <a href={`/${locale}/contact`} className="btn btn-outline-primary btn-lg px-4 px-sm-6 py-3 text-center">
+                <span className="d-block d-sm-inline">
+                  <span className="d-block d-sm-none">24/7</span>
+                  <span className="d-none d-sm-inline">{t('Hero.contact')}</span>
+                  <span className="d-block d-sm-none">Emergency</span>
+                </span>
               </a>
             </div>
           </div>
