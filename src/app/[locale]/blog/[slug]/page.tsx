@@ -92,11 +92,11 @@ export default async function BlogPostPage({ params }: BlogPostPageProps) {
     <article className="container mx-auto px-4 py-12">
       <div className="max-w-3xl mx-auto">
         <header className="mb-8 text-center">
-          <h1 className="text-4xl font-bold mb-4">{post.title}</h1>
+          <h1 className="text-4xl font-bold mb-4">{article.title}</h1>
           <div className="d-flex justify-content-center align-items-center text-muted">
-            <span>{post.date}</span>
+            <span>{article.date}</span>
             <span className="mx-3">•</span>
-            <span>{t('Blog.by')} {post.author}</span>
+            <span>{t('by')} {article.author}</span>
           </div>
         </header>
         
