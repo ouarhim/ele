@@ -158,7 +158,7 @@
     },
     "Contact": {
       "title": "Contact REO",
-      "subtitle": "Free Quote • 24/7 Emergency • WhatsApp +212 667924515 • Zone [REGION]"
+      "subtitle": "Free Quote • 24/7 Emergency • WhatsApp +212 667924515 • Zone Sous Massa"
     }
   },
   "About": {
@@ -800,7 +800,7 @@
       },
       "serviceArea": {
         "question": "In which area do you operate?",
-        "answer": "We operate mainly in the [REGION] region with an extended service area. For emergency interventions, we can travel to a wider radius. Contact us to check availability in your area."
+        "answer": "We operate mainly in the Sous Massa region with an extended service area. For emergency interventions, we can travel to a wider radius. Contact us to check availability in your area."
       },
       "emergencyService": {
         "question": "Do you offer emergency service?",

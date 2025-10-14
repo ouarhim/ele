@@ -158,7 +158,7 @@
     },
     "Contact": {
       "title": "Contactez REO",
-      "subtitle": "Devis gratuit • Urgence 24/7 • WhatsApp +212 667924515 • Zone [REGION]"
+      "subtitle": "Devis gratuit • Urgence 24/7 • WhatsApp +212 667924515 • Zone Sous Massa"
     }
   },
   "About": {
@@ -192,7 +192,7 @@
       },
       "proximity": {
         "title": "Service de Proximité",
-        "description": "Interlocuteur dédié, suivi de chantier, astreinte 24/7 et interventions d'urgence dans la région [REGION]."
+        "description": "Interlocuteur dédié, suivi de chantier, astreinte 24/7 et interventions d'urgence dans la région Sous Massa."
       },
       "efficiency": {
         "title": "Efficacité Énergétique",
@@ -224,7 +224,7 @@
     },
     "Contact": {
       "title": "Demander un Diagnostic Gratuit",
-      "subtitle": "Contactez REO pour vos projets électriques à [VILLE] et [REGION]",
+      "subtitle": "Contactez REO pour vos projets électriques à [VILLE] et Sous Massa",
       "cta": "Appelez [NUM_TEL]"
     }
   },
@@ -800,7 +800,7 @@
       },
       "serviceArea": {
         "question": "Dans quelle zone intervenez-vous ?",
-        "answer": "Nous intervenons principalement dans la région [REGION] avec une zone de service étendue. Pour les interventions d'urgence, nous pouvons nous déplacer dans un rayon plus large. Contactez-nous pour vérifier la disponibilité dans votre zone."
+        "answer": "Nous intervenons principalement dans la région Sous Massa avec une zone de service étendue. Pour les interventions d'urgence, nous pouvons nous déplacer dans un rayon plus large. Contactez-nous pour vérifier la disponibilité dans votre zone."
       },
       "emergencyService": {
         "question": "Proposez-vous un service d'urgence ?",

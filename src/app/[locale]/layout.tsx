@@ -2,6 +2,7 @@ import '@/app/globals.css';
 import { locales, getMessages } from '@/i18n';
 import Header from '@/components/Header';
 import Footer from '@/components/Footer';
+import FloatingWhatsApp from '@/components/FloatingWhatsApp';
 import SEOHead from '@/components/SEOHead';
 import LocaleAttributes from '@/components/LocaleAttributes';
 import BootstrapClient from '@/components/BootstrapClient';
@@ -56,6 +57,7 @@ export default async function LocaleLayout({
         {children}
       </main>
       <Footer locale={locale} />
+      <FloatingWhatsApp locale={locale} />
     </NextIntlClientProvider>
   );
 }
