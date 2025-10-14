@@ -106,6 +106,18 @@
       "electricalStandards": {
         "title": "Electrical Standards in Morocco: What you need to know",
         "excerpt": "Understanding Moroccan electrical standards for your projects."
+      },
+      "emergencyRepairs": {
+        "title": "Emergency Repairs: Practical Guide",
+        "excerpt": "What to do in case of electrical emergency? Our expert advice for handling urgent situations."
+      },
+      "solarInstallation": {
+        "title": "Solar Installation: Complete Guide",
+        "excerpt": "Everything about solar panel installation in Morocco: regulations, costs and benefits."
+      },
+      "electricalSafety": {
+        "title": "Electrical Safety: Best Practices",
+        "excerpt": "Essential electrical safety rules to protect your family and property."
       }
     }
   },

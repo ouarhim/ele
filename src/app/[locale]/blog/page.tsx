@@ -1,12 +1,19 @@
 import React from 'react';
 import { getTranslations } from 'next-intl/server';
+import Link from 'next/link';
 
-export default async function BlogPage({ params }: { params: Promise<{ locale: string }> }) {
+interface BlogPageProps {
+  params: Promise<{ locale: string }>;
+  searchParams: Promise<{ page?: string }>;
+}
+
+export default async function BlogPage({ params, searchParams }: BlogPageProps) {
   const { locale } = await params;
+  const { page = '1' } = await searchParams;
   const t = await getTranslations({ locale, namespace: 'Blog' });
 
-  // In a real implementation, this would fetch from Contentlayer
-  const posts = [
+  // All blog posts
+  const allPosts = [
     {
       id: 1,
       title: t('posts.motorWinding.title'),
@@ -48,8 +55,37 @@ export default async function BlogPage({ params }: { params: Promise<{ locale: s
       excerpt: t('posts.electricalStandards.excerpt'),
       date: "2023-12-10",
       slug: "normes-electriques-maroc"
+    },
+    {
+      id: 7,
+      title: t('posts.emergencyRepairs.title'),
+      excerpt: t('posts.emergencyRepairs.excerpt'),
+      date: "2023-12-05",
+      slug: "reparations-urgence"
+    },
+    {
+      id: 8,
+      title: t('posts.solarInstallation.title'),
+      excerpt: t('posts.solarInstallation.excerpt'),
+      date: "2023-11-28",
+      slug: "installation-solaire"
+    },
+    {
+      id: 9,
+      title: t('posts.electricalSafety.title'),
+      excerpt: t('posts.electricalSafety.excerpt'),
+      date: "2023-11-20",
+      slug: "securite-electrique"
     }
   ];
+
+  // Pagination logic
+  const postsPerPage = 3;
+  const currentPage = parseInt(page);
+  const totalPages = Math.ceil(allPosts.length / postsPerPage);
+  const startIndex = (currentPage - 1) * postsPerPage;
+  const endIndex = startIndex + postsPerPage;
+  const posts = allPosts.slice(startIndex, endIndex);
 
   return (
     <div className="container mx-auto px-4 py-12">
@@ -79,20 +115,48 @@ export default async function BlogPage({ params }: { params: Promise<{ locale: s
 
       <nav aria-label="Blog pagination" className="mt-12">
         <ul className="pagination justify-content-center">
-          <li className="page-item disabled">
-            <a className="page-link" href="#" tabIndex={-1} aria-disabled="true">{t('previous')}</a>
+          {/* Previous button */}
+          <li className={`page-item ${currentPage === 1 ? 'disabled' : ''}`}>
+            {currentPage === 1 ? (
+              <span className="page-link" tabIndex={-1} aria-disabled="true">{t('previous')}</span>
+            ) : (
+              <Link 
+                href={`/${locale}/blog?page=${currentPage - 1}`} 
+                className="page-link"
+              >
+                {t('previous')}
+              </Link>
+            )}
           </li>
-          <li className="page-item active" aria-current="page">
-            <a className="page-link" href="#">1</a>
-          </li>
-          <li className="page-item">
-            <a className="page-link" href="#">2</a>
-          </li>
-          <li className="page-item">
-            <a className="page-link" href="#">3</a>
-          </li>
-          <li className="page-item">
-            <a className="page-link" href="#">{t('next')}</a>
+
+          {/* Page numbers */}
+          {Array.from({ length: totalPages }, (_, i) => i + 1).map((pageNum) => (
+            <li 
+              key={pageNum} 
+              className={`page-item ${currentPage === pageNum ? 'active' : ''}`}
+              aria-current={currentPage === pageNum ? 'page' : undefined}
+            >
+              <Link 
+                href={`/${locale}/blog?page=${pageNum}`} 
+                className="page-link"
+              >
+                {pageNum}
+              </Link>
+            </li>
+          ))}
+
+          {/* Next button */}
+          <li className={`page-item ${currentPage === totalPages ? 'disabled' : ''}`}>
+            {currentPage === totalPages ? (
+              <span className="page-link" tabIndex={-1} aria-disabled="true">{t('next')}</span>
+            ) : (
+              <Link 
+                href={`/${locale}/blog?page=${currentPage + 1}`} 
+                className="page-link"
+              >
+                {t('next')}
+              </Link>
+            )}
           </li>
         </ul>
       </nav>

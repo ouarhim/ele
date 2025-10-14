@@ -106,6 +106,18 @@
       "electricalStandards": {
         "title": "Normes Électriques au Maroc : Ce qu'il faut savoir",
         "excerpt": "Comprendre les normes électriques marocaines pour vos projets."
+      },
+      "emergencyRepairs": {
+        "title": "Réparations d'Urgence : Guide Pratique",
+        "excerpt": "Que faire en cas de panne électrique urgente ? Nos conseils d'expert pour gérer les situations d'urgence."
+      },
+      "solarInstallation": {
+        "title": "Installation Solaire : Guide Complet",
+        "excerpt": "Tout savoir sur l'installation de panneaux solaires au Maroc : réglementation, coûts et avantages."
+      },
+      "electricalSafety": {
+        "title": "Sécurité Électrique : Les Bonnes Pratiques",
+        "excerpt": "Les règles essentielles de sécurité électrique pour protéger votre famille et vos biens."
       }
     }
   },
