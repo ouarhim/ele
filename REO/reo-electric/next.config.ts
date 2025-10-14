@@ -1,10 +1,9 @@
 import type { NextConfig } from "next";
 import createNextIntlPlugin from "next-intl/plugin";
-import { withContentlayer } from "next-contentlayer";
 
 const withNextIntl = createNextIntlPlugin({
   // Specify the location of the request configuration file
-  requestConfigPath: "./src/i18n/request.ts"
+  requestConfig: "./src/i18n/request.ts"
 });
 
 const nextConfig: NextConfig = {
@@ -15,4 +14,4 @@ const nextConfig: NextConfig = {
   },
 };
 
-export default withContentlayer(withNextIntl(nextConfig));
+export default withNextIntl(nextConfig);

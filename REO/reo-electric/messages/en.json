@@ -231,25 +231,24 @@
   "Bobinage": {
     "Hero": {
       "title": "Motor Winding Service",
-      "subtitle": "Professional motor rewinding and repair in Agadir",
-      "description": "Diagnosis, copper rewinding, insulation tests, and vibrations. Workshop guarantee with traceability reports."
+      "description": "Professional motor rewinding and repair in Agadir. Diagnosis, copper rewinding, insulation tests, and vibrations. Workshop guarantee with traceability reports."
     },
     "Process": {
       "title": "Our Process",
-      "subtitle": "Step-by-step motor winding process",
-      "step1": {
+      "imageAlt": "Professional motor winding workshop",
+      "diagnostic": {
         "title": "Diagnosis",
         "description": "Complete motor analysis: electrical tests, insulation, vibrations, and performance assessment."
       },
-      "step2": {
+      "demontage": {
         "title": "Disassembly",
         "description": "Careful disassembly, part identification, and damage assessment with photo documentation."
       },
-      "step3": {
+      "rebobinage": {
         "title": "Rewinding",
         "description": "Copper rewinding with quality materials, insulation tests, and compliance with standards."
       },
-      "step4": {
+      "tests": {
         "title": "Testing",
         "description": "Performance tests, insulation verification, and final quality control before delivery."
       }
@@ -257,49 +256,68 @@
     "Benefits": {
       "title": "Why Choose Our Motor Winding Service?",
       "subtitle": "Professional expertise and guaranteed results",
-      "expertise": {
-        "title": "20+ Years Experience",
-        "description": "Recognized expertise in motor winding for hotels, buildings, and industrial applications."
+      "longevity": {
+        "title": "Extended Lifespan",
+        "description": "Restore original motor performance and extend equipment life."
       },
-      "quality": {
-        "title": "Quality Materials",
-        "description": "High-quality copper, insulation materials, and components for optimal performance."
+      "efficiency": {
+        "title": "Restored Efficiency",
+        "description": "Return to optimal energy characteristics and performance."
       },
-      "warranty": {
-        "title": "Workshop Guarantee",
-        "description": "Complete warranty on workmanship and materials with traceability reports."
+      "reliability": {
+        "title": "Reduced Downtime",
+        "description": "Fewer interruptions thanks to restored reliability."
       },
-      "speed": {
-        "title": "Fast Service",
-        "description": "Quick turnaround times to minimize your equipment downtime."
+      "traceability": {
+        "title": "Complete Traceability",
+        "description": "Test reports and technical documentation provided."
       }
     },
     "Pricing": {
       "title": "Transparent Pricing",
       "subtitle": "Competitive rates with no hidden costs",
-      "diagnosis": "Free diagnosis and quote",
-      "warranty": "Workshop guarantee included",
-      "traceability": "Complete traceability reports"
+      "small": {
+        "title": "Small Motor",
+        "description": "Motors < 10 kW",
+        "price": "From 500 MAD",
+        "duration": "2-3 days"
+      },
+      "industrial": {
+        "title": "Industrial Motor",
+        "description": "Motors 10-100 kW",
+        "price": "From 1500 MAD",
+        "duration": "5-10 days"
+      },
+      "emergency": {
+        "title": "Emergency",
+        "description": "Rush service",
+        "price": "On quote",
+        "duration": "24-72h"
+      }
     },
     "Preparation": {
       "title": "How to Prepare",
-      "subtitle": "Steps to take before our intervention",
-      "step1": "Stop the motor and ensure electrical safety",
-      "step2": "Gather motor documentation (model, power, voltage)",
-      "step3": "Describe the symptoms and operating conditions",
-      "step4": "Schedule the intervention at your convenience"
+      "plaque": {
+        "title": "Nameplate",
+        "description": "Technical characteristics and failure history."
+      },
+      "photos": {
+        "title": "Installation Photos",
+        "description": "Access conditions and lifting requirements for intervention."
+      },
+      "environment": {
+        "title": "Usage Environment",
+        "description": "Voltages, existing protections and operating conditions."
+      }
     },
     "Safety": {
-      "title": "Safety & Compliance",
-      "subtitle": "Your safety is our priority",
-      "certified": "Certified electricians with proper training",
-      "insurance": "Decennial insurance [INSURANCE_NUM]",
-      "standards": "Compliance with Moroccan electrical standards",
-      "documentation": "Complete safety documentation provided"
+      "title": "Safety & Guarantee",
+      "controls": "Insulation tests and no-load tests documented",
+      "guarantee": "Workshop guarantee on winding according to usage",
+      "documentation": "Test reports and complete traceability"
     },
     "FAQ": {
       "title": "Frequently Asked Questions",
-      "subtitle": "Common questions about motor winding",
       "q1": {
         "question": "How long does motor rewinding take?",
         "answer": "Typically 3-7 days depending on motor size and complexity. We provide precise timelines during diagnosis."
@@ -316,9 +334,276 @@
     "CTA": {
       "title": "Need Motor Winding Service?",
       "subtitle": "Contact us for a free diagnosis and quote",
-      "button": "Request Free Quote",
-      "phone": "Call +212 667924515",
-      "whatsapp": "WhatsApp +212 667924515"
+      "devis": "Request Free Quote",
+      "call": "Call +212 667924515"
+    }
+  },
+  "ArmoiresHotels": {
+    "Hero": {
+      "title": "Hotel Electrical Panels",
+      "description": "Design and modernization of hotel electrical panels (TGBT, distribution panels), selectivity, labeling, service continuity, technical documentation and planned maintenance."
+    },
+    "Process": {
+      "title": "Our Process",
+      "imageAlt": "Professional hotel TGBT panel",
+      "audit": {
+        "title": "Audit & Study",
+        "description": "Analysis of needs, power balances, single-line diagrams and choice of equipment."
+      },
+      "design": {
+        "title": "Design & Manufacturing",
+        "description": "Detailed diagrams, choice of IP enclosures, wiring and labeling according to hotel standards."
+      },
+      "installation": {
+        "title": "Installation & Wiring",
+        "description": "Assembly, wiring, installation of differential protections and continuity tests."
+      },
+      "testing": {
+        "title": "Testing & Commissioning",
+        "description": "Tightening tests, continuity, RCD, IP and delivery of complete technical documentation."
+      }
+    },
+    "Services": {
+      "title": "Our Services",
+      "subtitle": "Complete solutions for hotels and establishments",
+      "tgbt": {
+        "title": "Hotel TGBT",
+        "description": "General low voltage panel, selectivity, protections and service continuity."
+      },
+      "divisionnaires": {
+        "title": "Distribution Panels",
+        "description": "Floor panels, kitchens, laundry rooms with labeling and facilitated maintenance."
+      },
+      "cuisines": {
+        "title": "Kitchen Panels",
+        "description": "IP adapted enclosures, type A RCD, inspection compliance and enhanced safety."
+      },
+      "buanderies": {
+        "title": "Laundry Panels",
+        "description": "Specific protections, humid environment, preventive maintenance."
+      }
+    },
+    "Benefits": {
+      "title": "Benefits",
+      "subtitle": "Why modernize your electrical panels",
+      "safety": {
+        "title": "Client Safety",
+        "description": "Adapted protections, selectivity and guaranteed service continuity."
+      },
+      "continuity": {
+        "title": "Reduced Outages",
+        "description": "Optimized selectivity to isolate faults without affecting the whole."
+      },
+      "maintenance": {
+        "title": "Facilitated Maintenance",
+        "description": "Rigorous labeling, complete documentation and rapid interventions."
+      },
+      "optimization": {
+        "title": "Energy Optimization",
+        "description": "Savings on common areas, intelligent load management."
+      }
+    },
+    "Pricing": {
+      "title": "Timing & Rates",
+      "subtitle": "Rates according to complexity and hotel size",
+      "etage": {
+        "title": "Floor Panel",
+        "description": "Standard distribution panel",
+        "price": "From 2000 MAD",
+        "duration": "3-7 days"
+      },
+      "tgbt": {
+        "title": "Medium Hotel TGBT",
+        "description": "Complete general panel",
+        "price": "On quote",
+        "duration": "2-4 weeks"
+      },
+      "conformite": {
+        "title": "Compliance",
+        "description": "Kitchen/laundry",
+        "price": "From 1500 MAD",
+        "duration": "1-2 weeks"
+      }
+    },
+    "Preparation": {
+      "title": "To Prepare",
+      "plans": {
+        "title": "Floor Plans",
+        "description": "Architectural plans and power balances per floor."
+      },
+      "incidents": {
+        "title": "Incident History",
+        "description": "Report of recent failures and identified critical loads."
+      },
+      "creneaux": {
+        "title": "Intervention Windows",
+        "description": "Time slots without client inconvenience for technical interventions."
+      },
+      "acces": {
+        "title": "Access to Premises",
+        "description": "Access to technical premises and necessary authorizations."
+      }
+    },
+    "Safety": {
+      "title": "Safety & Guarantee",
+      "tests": "Tightening, continuity, RCD, IP tests documented",
+      "documentation": "Technical documentation delivered (diagrams, labeling, notices)",
+      "guarantee": "Work guarantee according to contract and preventive maintenance"
+    },
+    "FAQ": {
+      "title": "Frequently Asked Questions",
+      "q1": {
+        "question": "What is selectivity?",
+        "answer": "Coordination of protections to isolate a fault without affecting the entire installation."
+      },
+      "q2": {
+        "question": "Why modernize a TGBT?",
+        "answer": "To improve safety, operational continuity and facilitate maintenance."
+      },
+      "q3": {
+        "question": "Do you provide documentation?",
+        "answer": "Yes, complete technical documentation with diagrams, labeling and maintenance notices."
+      }
+    },
+    "CTA": {
+      "title": "Need to Modernize Your Panels?",
+      "subtitle": "Contact us for a free audit and personalized quote",
+      "devis": "Request Quote",
+      "call": "Call +212 667924515"
+    }
+  },
+  "InstallationsImmeubles": {
+    "Hero": {
+      "title": "Building Electrical Installations",
+      "description": "Load studies, diagrams, wiring, grounding, tests and compliance documentation for common areas and technical premises."
+    },
+    "Process": {
+      "title": "Our Process",
+      "imageAlt": "Common building electrical panel",
+      "etude": {
+        "title": "Study & Diagrams",
+        "description": "Load studies, single-line diagrams, section calculations and choice of protections."
+      },
+      "schemas": {
+        "title": "Single-line Diagrams",
+        "description": "Detailed plans, labeling, equipotential connections and grounding."
+      },
+      "cablage": {
+        "title": "Wiring & Installation",
+        "description": "Cable laying, installation of circuit breakers, RCD and earth bars."
+      },
+      "essais": {
+        "title": "Tests & Commissioning",
+        "description": "Continuity controls, RCD, earth and commissioning with compliance documentation."
+      }
+    },
+    "Services": {
+      "title": "Our Services",
+      "subtitle": "Complete solutions for buildings and condominiums",
+      "colonnes": {
+        "title": "Rising Mains",
+        "description": "Vertical distribution, labeled wiring and adapted protections."
+      },
+      "gtl": {
+        "title": "GTL/ETEL",
+        "description": "Technical housing duct, distribution panel and meters."
+      },
+      "eclairage": {
+        "title": "Common Lighting",
+        "description": "Lighting of common areas, stairs and common spaces."
+      },
+      "parafoudre": {
+        "title": "Surge Protector",
+        "description": "Lightning protection if required by regulations."
+      }
+    },
+    "Benefits": {
+      "title": "Benefits",
+      "subtitle": "Why call on a professional",
+      "safety": {
+        "title": "Occupant Safety",
+        "description": "Installation compliance and resident safety guaranteed."
+      },
+      "maintenance": {
+        "title": "Facilitated Maintenance",
+        "description": "Clear labeling, complete documentation and rapid interventions."
+      },
+      "optimization": {
+        "title": "Energy Optimization",
+        "description": "Savings on common areas and electricity bills."
+      },
+      "extensions": {
+        "title": "Extension Preparation",
+        "description": "Installation ready for future extensions (solar panels, etc.)."
+      }
+    },
+    "Pricing": {
+      "title": "Timing & Rates",
+      "subtitle": "Rates according to building size and complexity",
+      "petit": {
+        "title": "Building < 5 floors",
+        "description": "Complete installation",
+        "price": "From 15000 MAD",
+        "duration": "2-4 weeks"
+      },
+      "grand": {
+        "title": "Building > 5 floors",
+        "description": "Complex installation",
+        "price": "On quote",
+        "duration": "4-8 weeks"
+      },
+      "renovation": {
+        "title": "Common Renovation",
+        "description": "Standards compliance",
+        "price": "From 8000 MAD",
+        "duration": "1-3 weeks"
+      }
+    },
+    "Preparation": {
+      "title": "To Prepare",
+      "plans": {
+        "title": "Architectural Plans",
+        "description": "Floor plans and existing building diagrams."
+      },
+      "puissances": {
+        "title": "Subscribed Powers",
+        "description": "Subscription contracts and existing delivery points."
+      },
+      "reglement": {
+        "title": "Condominium Regulations",
+        "description": "Condominium rules and necessary authorizations."
+      },
+      "creneaux": {
+        "title": "Intervention Windows",
+        "description": "Intervention time slots without inconvenience for residents."
+      }
+    },
+    "Safety": {
+      "title": "Safety & Guarantee",
+      "controls": "Controls: continuity, RCD, earth, overload/short-circuit",
+      "guarantee": "Work guarantee according to contract and commissioning documentation",
+      "documentation": "Complete technical documentation with diagrams and test reports"
+    },
+    "FAQ": {
+      "title": "Frequently Asked Questions",
+      "q1": {
+        "question": "What are the main requirements?",
+        "answer": "Protections, earth, labeling, tests and compliance with current standards."
+      },
+      "q2": {
+        "question": "Can we phase by stairwell?",
+        "answer": "Yes, with planning and coordination of interventions by floor."
+      },
+      "q3": {
+        "question": "Do you provide documentation?",
+        "answer": "Yes, detailed diagrams, test reports and compliance documentation."
+      }
+    },
+    "CTA": {
+      "title": "Need a Building Installation?",
+      "subtitle": "Contact us for a free study and personalized quote",
+      "devis": "Request Quote",
+      "call": "Call +212 667924515"
     }
   },
   "Portfolio": {

@@ -157,23 +157,23 @@
       "author2": "Responsable Maintenance, [VILLE B]"
     },
     "Contact": {
-      "title": "Contactez [NOM_ENTREPRISE]",
+      "title": "Contactez REO",
       "subtitle": "Devis gratuit • Urgence 24/7 • WhatsApp +212 667924515 • Zone [REGION]"
     }
   },
   "About": {
     "Hero": {
-      "title": "À propos de [NOM_ENTREPRISE]",
+      "title": "À propos de REO",
       "description": "Électricien spécialisé au Maroc depuis 20+ ans : bobinage moteurs, armoires hôtels, installations immeubles. Service de proximité, conformité et réactivité."
     },
     "Story": {
       "title": "Notre Histoire",
-      "description1": "[NOM_ENTREPRISE] accompagne hôtels et immeubles au Maroc depuis plus de 20 ans, du diagnostic à la réception, avec un service de proximité et des chantiers tenus dans les délais.",
+      "description1": "REO accompagne hôtels et immeubles au Maroc depuis plus de 20 ans, du diagnostic à la réception, avec un service de proximité et des chantiers tenus dans les délais.",
       "description2": "Notre priorité : sécurité, continuité de service et respect des engagements. Équipe qualifiée, atelier de bobinage, support SAV et interlocuteur unique pour chaque projet.",
       "yearsExperience": "Années d'Expérience",
       "projectsCompleted": "Projets Réalisés",
       "satisfactionRate": "Satisfaction Client",
-      "imageAlt": "Équipe [NOM_ENTREPRISE] à [VILLE]"
+      "imageAlt": "Équipe REO à [VILLE]"
     },
     "Mission": {
       "title": "Notre Mission",
@@ -205,7 +205,7 @@
     },
     "Team": {
       "title": "Notre Équipe",
-      "subtitle": "Professionnels qualifiés au service de [NOM_ENTREPRISE]",
+      "subtitle": "Professionnels qualifiés au service de REO",
       "chef": {
         "name": "Chef de Projet",
         "position": "Responsable Technique",
@@ -224,7 +224,7 @@
     },
     "Contact": {
       "title": "Demander un Diagnostic Gratuit",
-      "subtitle": "Contactez [NOM_ENTREPRISE] pour vos projets électriques à [VILLE] et [REGION]",
+      "subtitle": "Contactez REO pour vos projets électriques à [VILLE] et [REGION]",
       "cta": "Appelez [NUM_TEL]"
     }
   },
@@ -333,7 +333,7 @@
     },
     "CTA": {
       "title": "Besoin d'un Rebobinage ?",
-      "subtitle": "Contactez [NOM_ENTREPRISE] pour un diagnostic gratuit et un devis personnalisé",
+      "subtitle": "Contactez REO pour un diagnostic gratuit et un devis personnalisé",
       "devis": "Demander un Devis",
       "call": "Appeler [NUM_TEL]"
     }
@@ -467,7 +467,7 @@
     },
     "CTA": {
       "title": "Besoin de Moderniser vos Armoires ?",
-      "subtitle": "Contactez [NOM_ENTREPRISE] pour un audit gratuit et un devis personnalisé",
+      "subtitle": "Contactez REO pour un audit gratuit et un devis personnalisé",
       "devis": "Demander un Devis",
       "call": "Appeler [NUM_TEL]"
     }
@@ -601,7 +601,7 @@
     },
     "CTA": {
       "title": "Besoin d'une Installation d'Immeuble ?",
-      "subtitle": "Contactez [NOM_ENTREPRISE] pour une étude gratuite et un devis personnalisé",
+      "subtitle": "Contactez REO pour une étude gratuite et un devis personnalisé",
       "devis": "Demander un Devis",
       "call": "Appeler [NUM_TEL]"
     }
@@ -760,7 +760,7 @@
       "phone": "Appeler [NUM_TEL]"
     },
     "meta": {
-      "title": "Portfolio - [NOM_ENTREPRISE] Électricien Maroc",
+      "title": "Portfolio - REO Électricien Maroc",
       "description": "Découvrez nos projets d'excellence en bobinage, armoires électriques et installations d'immeubles au Maroc."
     }
   },
@@ -795,7 +795,7 @@
     },
     "questions": {
       "whatServices": {
-        "question": "Quels services propose [NOM_ENTREPRISE] ?",
+        "question": "Quels services propose REO ?",
         "answer": "Nous proposons trois services principaux : bobinage de moteurs (diagnostic, réparation, garantie atelier), armoires électriques pour hôtels (TGBT, tableaux divisionnaires, cuisines, buanderies), et installations d'immeubles (colonnes montantes, GTL, éclairage commun, parafoudre). Tous nos services respectent les normes marocaines et incluent une documentation complète."
       },
       "serviceArea": {
@@ -854,7 +854,7 @@
       "phone": "Appeler [NUM_TEL]"
     },
     "meta": {
-      "title": "FAQ - [NOM_ENTREPRISE] Électricien Maroc",
+      "title": "FAQ - REO Électricien Maroc",
       "description": "Questions fréquentes sur nos services électriques : bobinage, armoires hôtels, installations immeubles au Maroc."
     }
   },
@@ -869,7 +869,7 @@
         "sections": {
           "introduction": {
             "title": "Introduction",
-            "content": "Le bobinage de moteurs est une spécialité technique qui permet de restaurer les performances d'un moteur électrique défaillant. Chez [NOM_ENTREPRISE], nous maîtrisons cette technique depuis plus de 20 ans, avec plus de 1000 moteurs rebobinés avec succès au Maroc."
+            "content": "Le bobinage de moteurs est une spécialité technique qui permet de restaurer les performances d'un moteur électrique défaillant. Chez REO, nous maîtrisons cette technique depuis plus de 20 ans, avec plus de 1000 moteurs rebobinés avec succès au Maroc."
           },
           "signs": {
             "title": "Signes qu'un Moteur a Besoin d'être Rebobiné",
@@ -926,18 +926,18 @@
           },
           "conclusion": {
             "title": "Conclusion",
-            "content": "Le bobinage professionnel est la solution optimale pour restaurer vos moteurs défaillants. Avec [NOM_ENTREPRISE], bénéficiez de l'expertise de 20+ ans, d'un processus documenté et d'une garantie atelier complète. Contactez-nous pour un diagnostic gratuit."
+            "content": "Le bobinage professionnel est la solution optimale pour restaurer vos moteurs défaillants. Avec REO, bénéficiez de l'expertise de 20+ ans, d'un processus documenté et d'une garantie atelier complète. Contactez-nous pour un diagnostic gratuit."
           }
         },
         "cta": {
           "title": "Besoin d'un Bobinage de Moteur ?",
-          "subtitle": "Contactez [NOM_ENTREPRISE] pour un diagnostic gratuit et un devis personnalisé",
+          "subtitle": "Contactez REO pour un diagnostic gratuit et un devis personnalisé",
           "button": "Demander un Devis",
           "phone": "[NUM_TEL]",
           "phoneText": "Appeler [NUM_TEL]"
         },
         "meta": {
-          "title": "Guide Complet du Bobinage de Moteurs - [NOM_ENTREPRISE]",
+          "title": "Guide Complet du Bobinage de Moteurs - REO",
           "description": "Découvrez quand et comment rebobiner un moteur électrique. Guide professionnel avec processus détaillé et avantages."
         }
       }
