@@ -18,7 +18,8 @@ export default [
   eslintConfigPrettier,
   {
     rules: {
-      // Add custom rules here
+      "react/no-unescaped-entities": "off",
+      "@next/next/no-img-element": "off",
     },
   },
 ];
