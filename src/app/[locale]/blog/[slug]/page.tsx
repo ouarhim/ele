@@ -38,37 +38,66 @@ export default async function BlogPostPage({ params }: BlogPostPageProps) {
     author: "REO Electric Team"
   };
 
-  // Generate content sections
-  const contentSections = [
-    {
+  // Generate content sections dynamically based on available sections
+  const contentSections = [];
+  
+  // Introduction section
+  if (t(`articles.${articleKey}.sections.introduction`)) {
+    contentSections.push({
       title: t(`articles.${articleKey}.sections.introduction`),
       content: t(`articles.${articleKey}.content`)
-    },
-    {
-      title: t(`articles.${articleKey}.sections.signs`) || t(`articles.${articleKey}.sections.emergency`) || t(`articles.${articleKey}.sections.planning`),
-      content: locale === 'fr' 
-        ? "Cette section couvre les aspects techniques détaillés de notre expertise professionnelle."
-        : locale === 'ar' 
-          ? "هذا القسم يغطي الجوانب التقنية التفصيلية لخبرتنا المهنية."
-          : "This section covers the detailed technical aspects of our professional expertise."
-    },
-    {
-      title: t(`articles.${articleKey}.sections.process`) || t(`articles.${articleKey}.sections.maintenance`) || t(`articles.${articleKey}.sections.materials`),
+    });
+  }
+
+  // Process/Technical section
+  const processTitle = t(`articles.${articleKey}.sections.process`) || 
+                      t(`articles.${articleKey}.sections.maintenance`) || 
+                      t(`articles.${articleKey}.sections.materials`) ||
+                      t(`articles.${articleKey}.sections.planning`);
+  
+  if (processTitle) {
+    contentSections.push({
+      title: processTitle,
       content: locale === 'fr' 
         ? "Notre processus professionnel garantit des résultats de qualité supérieure avec une traçabilité complète."
         : locale === 'ar' 
           ? "عملية المهنية تضمن نتائج عالية الجودة مع تتبع كامل."
           : "Our professional process ensures superior quality results with complete traceability."
-    },
-    {
-      title: t(`articles.${articleKey}.sections.benefits`) || t(`articles.${articleKey}.sections.compliance`) || t(`articles.${articleKey}.sections.testing`),
+    });
+  }
+
+  // Benefits/Results section
+  const benefitsTitle = t(`articles.${articleKey}.sections.benefits`) || 
+                       t(`articles.${articleKey}.sections.compliance`) || 
+                       t(`articles.${articleKey}.sections.testing`) ||
+                       t(`articles.${articleKey}.sections.emergency`);
+  
+  if (benefitsTitle) {
+    contentSections.push({
+      title: benefitsTitle,
       content: locale === 'fr' 
         ? "Les avantages de notre approche professionnelle incluent la durabilité, l'efficacité et la conformité aux normes."
         : locale === 'ar' 
           ? "فوائد نهجنا المهني تشمل المتانة والكفاءة والامتثال للمعايير."
           : "The benefits of our professional approach include durability, efficiency, and standards compliance."
-    }
-  ];
+    });
+  }
+
+  // Safety/Standards section
+  const safetyTitle = t(`articles.${articleKey}.sections.safety`) || 
+                      t(`articles.${articleKey}.sections.standards`) ||
+                      t(`articles.${articleKey}.sections.installation`);
+  
+  if (safetyTitle) {
+    contentSections.push({
+      title: safetyTitle,
+      content: locale === 'fr' 
+        ? "La sécurité et la conformité aux normes sont nos priorités absolues dans chaque intervention."
+        : locale === 'ar' 
+          ? "السلامة والامتثال للمعايير هي أولوياتنا المطلقة في كل تدخل."
+          : "Safety and standards compliance are our absolute priorities in every intervention."
+    });
+  }
 
   // Related posts data
   const relatedPosts = [
