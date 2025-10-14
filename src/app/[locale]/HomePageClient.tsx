@@ -78,9 +78,11 @@ export default function HomePageClient({ locale }: HomePageClientProps) {
               </button>
               <a href={`/${locale}/contact`} className="btn btn-outline-primary btn-lg px-4 px-sm-6 py-3 text-center">
                 <span className="d-block d-sm-inline">
-                  <span className="d-block d-sm-none">24/7</span>
+                  <span className="d-block d-sm-none">
+                    <span className="d-block">24/7</span>
+                    <span className="d-block">Emergency</span>
+                  </span>
                   <span className="d-none d-sm-inline">{t('Hero.contact')}</span>
-                  <span className="d-block d-sm-none">Emergency</span>
                 </span>
               </a>
             </div>

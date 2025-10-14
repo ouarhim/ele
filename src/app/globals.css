@@ -434,7 +434,17 @@ img {
     font-weight: 600;
   }
   
-  .btn .d-block.d-sm-none + .d-block.d-sm-none {
+  .btn .d-block.d-sm-none span {
+    font-size: 0.9rem;
+    line-height: 1.1;
+  }
+  
+  .btn .d-block.d-sm-none span:first-child {
+    font-weight: 600;
+    font-size: 1rem;
+  }
+  
+  .btn .d-block.d-sm-none span:last-child {
     font-size: 0.8rem;
     margin-top: 2px;
   }
