@@ -117,12 +117,6 @@ const Footer: React.FC<FooterProps> = ({ locale }) => {
                   </Link>
                 </li>
                 <li>
-                  <Link href={`/${locale}/blog`} className="text-gray-300 hover:text-blue-400 transition-colors flex items-center group">
-                    <i className="bi bi-journal-text mr-2 group-hover:scale-110 transition-transform"></i>
-                    {t('Navigation.blog')}
-                  </Link>
-                </li>
-                <li>
                   <Link href={`/${locale}/contact`} className="text-gray-300 hover:text-blue-400 transition-colors flex items-center group">
                     <i className="bi bi-telephone-fill mr-2 group-hover:scale-110 transition-transform"></i>
                     {t('Navigation.contact')}

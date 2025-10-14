@@ -163,7 +163,7 @@ export default function ContactPage({ params }: { params: Promise<{ locale: stri
                     value={formData.service}
                     onChange={handleChange}
                   >
-                    <option value="">{t('Common.select')}</option>
+                    <option value="">{tCommon('select')}</option>
                     {serviceOptions.map((option) => (
                       <option key={option.value} value={option.value}>
                         {option.label}

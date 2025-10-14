@@ -126,14 +126,7 @@ const Header: React.FC<HeaderProps> = ({ locale }) => {
                   {t('faq')}
                 </Link>
               </li>
-              <li className="nav-item">
-                <Link 
-                  className="nav-link" 
-                  href={`/${currentLocale}/blog`}
-                >
-                  {t('blog')}
-                </Link>
-              </li>
+              
               <li className="nav-item">
                 <Link 
                   className="nav-link" 
