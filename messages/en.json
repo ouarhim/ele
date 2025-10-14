@@ -119,6 +119,107 @@
         "title": "Electrical Safety: Best Practices",
         "excerpt": "Essential electrical safety rules to protect your family and property."
       }
+    },
+    "articles": {
+      "motorWinding": {
+        "title": "Complete Guide to Motor Winding",
+        "excerpt": "Discover when and how to rewind an electric motor. Professional guide with detailed process.",
+        "content": "Motor winding is a specialized technique that allows restoring the performance of a faulty electric motor. At REO, we have mastered this technique for over 20 years, with more than 1000 motors successfully rewound in Morocco.",
+        "sections": {
+          "introduction": "Motor winding is a specialized technique that allows restoring the performance of a faulty electric motor.",
+          "signs": "Signs that a Motor Needs Rewinding",
+          "process": "Our Motor Winding Process",
+          "benefits": "Benefits of Professional Motor Winding"
+        }
+      },
+      "hotelElectrical": {
+        "title": "Electrical Safety in Hotels",
+        "excerpt": "5 essential points to ensure electrical safety in your hotel establishment.",
+        "content": "Hotel electrical safety is crucial for guest safety and business continuity. Our comprehensive guide covers all essential aspects of electrical safety in hospitality establishments.",
+        "sections": {
+          "introduction": "Electrical safety in hotels is paramount for guest safety and business operations.",
+          "emergency": "Emergency Electrical Procedures",
+          "maintenance": "Preventive Maintenance Schedule",
+          "compliance": "Safety Standards Compliance"
+        }
+      },
+      "buildingInstallation": {
+        "title": "Building Electrical Installation: Complete Guide",
+        "excerpt": "Everything you need to know about electrical installation of a building in Morocco.",
+        "content": "Building electrical installation requires careful planning and adherence to Moroccan electrical standards. Our guide covers all aspects from design to completion.",
+        "sections": {
+          "introduction": "Proper electrical installation is essential for building safety and functionality.",
+          "planning": "Installation Planning and Design",
+          "materials": "Quality Materials and Components",
+          "testing": "Installation Testing and Certification"
+        }
+      },
+      "electricalMaintenance": {
+        "title": "Preventive Maintenance of Installations",
+        "excerpt": "How to maintain your electrical installation to avoid costly breakdowns.",
+        "content": "Preventive maintenance is key to ensuring the longevity and safety of electrical installations. Our systematic approach helps prevent costly failures.",
+        "sections": {
+          "introduction": "Preventive maintenance is essential for electrical system reliability.",
+          "schedule": "Maintenance Schedule and Checklist",
+          "inspection": "Regular Inspection Procedures",
+          "documentation": "Maintenance Documentation and Records"
+        }
+      },
+      "energyEfficiency": {
+        "title": "Energy Savings: 10 Electrician Tips",
+        "excerpt": "Professional tips to reduce your electrical consumption and bills.",
+        "content": "Energy efficiency not only reduces costs but also contributes to environmental sustainability. Our expert tips help optimize your electrical consumption.",
+        "sections": {
+          "introduction": "Energy efficiency is crucial for cost reduction and environmental responsibility.",
+          "lighting": "LED Lighting Solutions",
+          "appliances": "Energy-Efficient Appliances",
+          "monitoring": "Energy Consumption Monitoring"
+        }
+      },
+      "electricalStandards": {
+        "title": "Electrical Standards in Morocco: What you need to know",
+        "excerpt": "Understanding Moroccan electrical standards for your projects.",
+        "content": "Moroccan electrical standards ensure safety and compliance for all electrical installations. Understanding these standards is essential for any electrical project.",
+        "sections": {
+          "introduction": "Moroccan electrical standards ensure safety and compliance.",
+          "regulations": "Current Electrical Regulations",
+          "compliance": "Standards Compliance Requirements",
+          "certification": "Installation Certification Process"
+        }
+      },
+      "emergencyRepairs": {
+        "title": "Emergency Repairs: Practical Guide",
+        "excerpt": "What to do in case of electrical emergency? Our expert advice for handling urgent situations.",
+        "content": "Electrical emergencies require immediate attention and professional expertise. Our 24/7 emergency service ensures rapid response to critical situations.",
+        "sections": {
+          "introduction": "Electrical emergencies require immediate professional attention.",
+          "response": "Emergency Response Procedures",
+          "safety": "Safety First Principles",
+          "contact": "24/7 Emergency Contact Information"
+        }
+      },
+      "solarInstallation": {
+        "title": "Solar Installation: Complete Guide",
+        "excerpt": "Everything about solar panel installation in Morocco: regulations, costs and benefits.",
+        "content": "Solar energy is becoming increasingly popular in Morocco. Our comprehensive guide covers everything from planning to installation and maintenance.",
+        "sections": {
+          "introduction": "Solar energy offers sustainable and cost-effective solutions.",
+          "planning": "Solar Installation Planning",
+          "installation": "Professional Installation Process",
+          "maintenance": "Solar System Maintenance"
+        }
+      },
+      "electricalSafety": {
+        "title": "Electrical Safety: Best Practices",
+        "excerpt": "Essential electrical safety rules to protect your family and property.",
+        "content": "Electrical safety is paramount in any electrical installation. Our comprehensive safety guide ensures protection for your family and property.",
+        "sections": {
+          "introduction": "Electrical safety is essential for protecting lives and property.",
+          "precautions": "Safety Precautions and Measures",
+          "equipment": "Safety Equipment and Tools",
+          "training": "Safety Training and Awareness"
+        }
+      }
     }
   },
   "HomePage": {
